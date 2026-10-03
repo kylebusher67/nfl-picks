@@ -20,7 +20,7 @@
     "breaks": "Drake Maye (cleared, no designation) protects the ball and keeps it close in a divisional game. New England went 13-4 ATS last season and 9-2 ATS on the road.",
     "trend": "Patriots are 5-1 ATS vs Buffalo, all as underdogs (6 games, per Yahoo Sports). Small sample \u2014 directional only, not a strong signal. It's an against-the-spread trend, so it says more about a close game than about who wins, and it's widely published, so the line already reflects it.",
     "sources": [
-      "the-odds-api.com (fetched 2026-10-03 12:33 ET)",
+      "the-odds-api.com (fetched 2026-10-03 12:47 ET)",
       "https://www.cbssports.com/nfl/news/nfl-week-4-picks-odds-best-bets-chiefs-vegas-lions-panthers/",
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
       "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-christian-gonzalez-and-christian-barmore-for-sunday-s-week-4-matchup-vs-bills",
@@ -49,7 +49,7 @@
     "breaks": "Detroit's defense is the weak link: it ranks last on Sharp Football's defensive EPA table and is without S Brian Branch (out). A shootout decided by a field goal fails the -3.5.",
     "trend": "Dan Campbell is 11-0 SU and 9-1-1 ATS in primetime when favored (11 games, per CBS Sports). Small sample \u2014 directional only, not a strong signal. Detroit's primetime record is well known and the public bets the Lions in national games, so the line likely already accounts for it.",
     "sources": [
-      "the-odds-api.com (fetched 2026-10-03 12:33 ET)",
+      "the-odds-api.com (fetched 2026-10-03 12:47 ET)",
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
       "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
@@ -78,11 +78,12 @@
     ],
     "breaks": "Indianapolis's offense is no better than Washington's (-0.04 vs -0.05 EPA/play, Sharp Football), Keenan Allen is out, and the line moved from 3.5 to 4.5 after the Daniels news. A neutral London site and a Mariota-led game decided by 3-4 points fails the cover.",
     "sources": [
-      "the-odds-api.com (fetched 2026-10-03 12:33 ET)",
+      "the-odds-api.com (fetched 2026-10-03 12:47 ET)",
       "https://www.espn.com/nfl/injuries",
       "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
       "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026",
-      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/"
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://www.washingtontimes.com/news/2026/oct/3/colts-wr-keenan-allen-ruled-london-game-groin-injury/"
     ],
     "result": null
   },
@@ -106,7 +107,7 @@
     "breaks": "Tampa Bay's defense (4.9 yards/play allowed) keeps it low-scoring, and Green Bay's banged-up interior line (C Jacob Monk and G Aaron Banks out, C Jager Burton questionable) stalls drives. A 3-point win fails the cover.",
     "trend": "Tampa Bay has failed to cover in 12 straight games (per SportsBettingDime). Small sample \u2014 directional only, not a strong signal. Streaks like this get heavy media coverage, so books shade lines toward them; it's also mostly from games Mayfield started, so it says little about this one.",
     "sources": [
-      "the-odds-api.com (fetched 2026-10-03 12:33 ET)",
+      "the-odds-api.com (fetched 2026-10-03 12:47 ET)",
       "https://www.buccaneers.com/news/baker-mayfield-three-weeks-minimum-thumb-injury-update",
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
@@ -136,7 +137,7 @@
     "breaks": "Joe Burrow at home. Covers takes Cincinnati -2.5, arguing the Bengals' improved run defense forces Trevor Lawrence into a pass-heavy game. The Bengals are 4-0 SU vs Jacksonville since 2020 (Yahoo Sports).",
     "trend": "Jacksonville is 10-1 SU and ATS in its last 11 regular-season games (11 games, per Yahoo Sports). Small sample \u2014 directional only, not a strong signal. A run this visible is exactly what books adjust for, which is partly why a team with better efficiency numbers is still only +120.",
     "sources": [
-      "the-odds-api.com (fetched 2026-10-03 12:33 ET)",
+      "the-odds-api.com (fetched 2026-10-03 12:47 ET)",
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
       "https://sports.yahoo.com/nfl/betting/article/nfl-betting-odds-lines-betting-trends-to-know-for-week-4s-biggest-games-205616693.html",
       "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
@@ -165,7 +166,7 @@
     "breaks": "Kansas City is simply better on offense (+0.15 EPA/play vs +0.02) and is 21-5 SU against Las Vegas since 2013 (Yahoo Sports). Covers and CBS both take the Raiders +4.5 but project a Chiefs win (24-21). The Raiders are also without C Jackson Powers-Johnson (out).",
     "trend": "Kansas City is 21-5 SU vs Las Vegas since 2013 (26 games, per Yahoo Sports), which cuts against this pick. Separately, CBS notes the Chiefs are 0-5 ATS in their last five road division games (small sample \u2014 directional only, not a strong signal). Both are widely published and already reflected in the line.",
     "sources": [
-      "the-odds-api.com (fetched 2026-10-03 12:33 ET)",
+      "the-odds-api.com (fetched 2026-10-03 12:47 ET)",
       "https://www.cbssports.com/nfl/news/nfl-week-4-picks-odds-best-bets-chiefs-vegas-lions-panthers/",
       "https://sports.yahoo.com/nfl/betting/article/nfl-betting-odds-lines-betting-trends-to-know-for-week-4s-biggest-games-205616693.html",
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
@@ -195,7 +196,7 @@
     ],
     "breaks": "Turnovers: the Chargers forced five in Buffalo (Covers), and Seattle's offense (-0.02 EPA/play) is without RBs Zach Charbonnet and Jadarian Price (out). Justin Herbert is not on the injury report.",
     "sources": [
-      "the-odds-api.com (fetched 2026-10-03 12:33 ET)",
+      "the-odds-api.com (fetched 2026-10-03 12:47 ET)",
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
       "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026",
@@ -224,7 +225,7 @@
     ],
     "breaks": "Philadelphia at home with its defensive front applying pressure; 2 of 5 NFL.com analysts and Covers (Eagles +3.5) like Philadelphia. The Rams are 1-9 SU vs Philadelphia since 2005 (Yahoo Sports), though those were very different rosters.",
     "sources": [
-      "the-odds-api.com (fetched 2026-10-03 12:33 ET)",
+      "the-odds-api.com (fetched 2026-10-03 12:47 ET)",
       "https://www.espn.com/nfl/injuries",
       "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
       "https://www.cbssports.com/nfl/news/nfl-week-4-picks-odds-best-bets-chiefs-vegas-lions-panthers/",
@@ -255,7 +256,7 @@
     ],
     "breaks": "Nico Collins returns for Houston with no limitations expected (CBS Sports). That's a role-driven boost for a struggling offense, and it's already in the -160/+135 price. Dallas's defense also ranks near the bottom of Sharp Football's defensive EPA table (6.0 yards/play allowed) and is missing CB Cobie Durant and LB DeMarvion Overshown.",
     "sources": [
-      "the-odds-api.com (fetched 2026-10-03 12:33 ET)",
+      "the-odds-api.com (fetched 2026-10-03 12:47 ET)",
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
       "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026",
