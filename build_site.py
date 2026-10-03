@@ -55,6 +55,10 @@ def tier_of(pick):
     return (pick.get("risk_tier") or "balanced").lower()
 
 
+def tier_rank(tier):
+    return TIER_ORDER.index(tier) if tier in TIER_ORDER else len(TIER_ORDER)
+
+
 def page(title, body):
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -98,10 +102,10 @@ def render_pick_card(pick):
     conf = pick["confidence"]
     conf_note = pick.get("confidence_note", "")
 
+    rank = f" #{pick['rank']}" if pick.get("rank") else ""
     parts = [
         f'<section class="card tier-{escape(tier)}">',
-        f'<div class="tier-head"><span class="tier-label">{escape(tier.title())}</span>'
-        f'<span class="tier-blurb">{escape(TIER_BLURBS.get(tier, ""))}</span></div>',
+        f'<p class="tier-label">{escape(tier.title())}{escape(rank)}</p>',
         f'<p class="pick">{escape(pick["pick"])}{result_badge(pick)}</p>',
         f'<p class="meta">{escape(pick["bet_type"].title())} · {escape(price)}</p>',
         '<h3>Confidence</h3>',
@@ -121,23 +125,29 @@ def render_pick_card(pick):
 
 
 def render_week(week, picks):
-    picks = sorted(picks, key=lambda p: TIER_ORDER.index(tier_of(p)) if tier_of(p) in TIER_ORDER else 99)
+    by_tier = defaultdict(list)
+    for p in picks:
+        by_tier[tier_of(p)].append(p)
+    tiers = sorted(by_tier, key=tier_rank)
     dates = sorted({p.get("date", "") for p in picks if p.get("date")})
     generated = f"Generated {dates[-1]}" if dates else ""
-    nav = "".join(
-        f'<a href="#tier-{escape(tier_of(p))}">{escape(tier_of(p).title())}</a>' for p in picks
-    ) if len(picks) > 1 else ""
-    cards = "\n".join(
-        render_pick_card(p).replace('<section class="card', f'<section id="tier-{escape(tier_of(p))}" class="card', 1)
-        for p in picks
-    )
+    nav = "".join(f'<a href="#tier-{escape(t)}">{escape(t.title())}</a>' for t in tiers) if len(tiers) > 1 else ""
+
+    groups = []
+    for t in tiers:
+        cards = "\n".join(render_pick_card(p) for p in sorted(by_tier[t], key=lambda p: p.get("rank") or 99))
+        groups.append(
+            f'<div class="tier-group" id="tier-{escape(t)}">\n'
+            f'<h2 class="tier-heading tier-{escape(t)}">{escape(t.title())}'
+            f' <span class="tier-blurb">{escape(TIER_BLURBS.get(t, ""))}</span></h2>\n{cards}\n</div>'
+        )
     body = f"""<header>
 <p class="crumbs"><a href="index.html">&larr; All weeks</a></p>
 <p class="eyebrow">NFL Week {week} · {escape(generated)}</p>
 <h1>Week {week} Picks</h1>
 {f'<nav class="tiers">{nav}</nav>' if nav else ''}
 </header>
-{cards}"""
+{chr(10).join(groups)}"""
     return page(f"Week {week} Picks · {SITE_TITLE}", body)
 
 
@@ -146,7 +156,7 @@ def render_home(weeks):
         items = []
         for week in sorted(weeks, reverse=True):
             picks = weeks[week]
-            tiers = sorted({tier_of(p) for p in picks}, key=lambda t: TIER_ORDER.index(t) if t in TIER_ORDER else 99)
+            tiers = sorted({tier_of(p) for p in picks}, key=tier_rank)
             chips = "".join(f'<span class="chip tier-{escape(t)}">{escape(t.title())}</span>' for t in tiers)
             items.append(
                 f'<a class="week-card" href="week-{week}.html"><span class="week-title">Week {week} Picks</span>'

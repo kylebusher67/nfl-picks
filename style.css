@@ -72,11 +72,13 @@ li + li { margin-top: 0.4rem; }
 .card.tier-safe { border-top-color: var(--safe); }
 .card.tier-balanced { border-top-color: var(--balanced); }
 .card.tier-aggressive { border-top-color: var(--aggressive); }
-.tier-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.6rem; margin-bottom: 0.6rem; }
-.tier-label { font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; }
-.tier-safe .tier-label { color: var(--safe); }
-.tier-balanced .tier-label { color: var(--balanced); }
-.tier-aggressive .tier-label { color: var(--aggressive); }
+.tier-group { margin-bottom: 2rem; scroll-margin-top: 1rem; }
+.tier-heading { margin: 0 0 0.75rem; font-size: 1.15rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.tier-heading .tier-blurb { display: block; margin-top: 0.15rem; text-transform: none; letter-spacing: 0; font-weight: 400; }
+.tier-label { margin: 0 0 0.4rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.8rem; }
+.tier-safe .tier-label, .tier-heading.tier-safe { color: var(--safe); }
+.tier-balanced .tier-label, .tier-heading.tier-balanced { color: var(--balanced); }
+.tier-aggressive .tier-label, .tier-heading.tier-aggressive { color: var(--aggressive); }
 .tier-blurb { color: var(--muted); font-size: 0.85rem; }
 .pick { font-size: 1.3rem; font-weight: 650; color: var(--accent); margin: 0; }
 .meta { color: var(--muted); font-size: 0.95rem; margin-top: 0.25rem; }

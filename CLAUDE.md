@@ -19,7 +19,7 @@ The site is static (GitHub Pages, https://kylebusher67.github.io/nfl-picks/). Ne
 
 ## Workflow: "generate this week's pick" (optionally with a risk level)
 
-Risk level is optional: "generate this week's pick — safe" / "balanced" / "aggressive". **With no level, generate all three tiers.**
+Risk level is optional: "generate this week's pick — safe" / "balanced" / "aggressive". **With no level, generate all three tiers.** **Each tier gets 3 picks**, ranked #1–#3 within the tier, so a full run is 9 picks.
 
 | Tier | What it is |
 |---|---|
@@ -28,9 +28,11 @@ Risk level is optional: "generate this week's pick — safe" / "balanced" / "agg
 | **Aggressive** | Higher odds (underdog moneylines, player props, close calls). Real upside, but it **trades win probability for payout**. |
 
 Tier rules:
-- Every tier gets the same depth: 3–4 sourced Why bullets, a specific "what breaks this", and its own runner-up.
+- Every pick in every tier gets the same depth: 3–4 sourced Why bullets and a specific "what breaks this". #1 is the strongest-evidence pick in the tier; #2 and #3 must still be real picks that hold up on their own, not filler.
 - **Never present aggressive as the better or "smart money" pick.** It stands on its own with the higher risk stated. Don't rank tiers against each other; the group chooses based on how much risk it wants.
-- Each tier must be a different bet. If no candidate honestly fits a tier (e.g. no well-supported aggressive play), say so and skip that tier rather than force one.
+- **No duplicates:** all 9 picks are different bets. Avoid giving the same game and side in two tiers (e.g. Packers -3.5 as Safe and Packers ML as Balanced); if you do, say why.
+- **Spread picks across games:** within a tier, prefer 3 different games. If two picks are correlated (same game, or the same thing breaks both of them), say so, because the group may only use one of them.
+- **Don't force it:** if fewer than 3 candidates honestly fit a tier (common for Safe in a week with no clear favorites, or for player props without posted lines), give fewer picks and say so plainly rather than pad the tier.
 
 1. **Lines:** Run `python3 fetch_odds.py`. If it errors, show the error and stop — don't substitute lines from search results. Note each game's event id.
 2. **Research (fresh web searches):**
@@ -44,7 +46,7 @@ Tier rules:
      - ATS record off a bye or on short rest (only if one of the teams is in that spot this week)
      - Any other well-established situational trend that genuinely fits a specific matchup
      If nothing relevant applies, use no trend. Don't search until something turns up just to have one.
-3. **Candidates:** Build 3–5 candidates per requested tier (they can overlap across tiers), spanning different bet types (spread, moneyline, total, and a player prop if one is well supported). Don't default to spreads.
+3. **Candidates:** Build about 5–6 candidates per requested tier (they can overlap across tiers), spanning different bet types (spread, moneyline, total, and a player prop if one is well supported). Don't default to spreads.
    - For a prop candidate, fetch its line with `python3 fetch_odds.py --event <id> --markets <market>` (e.g. `player_pass_yds`, `player_rush_yds`, `player_reception_yds`, `player_anytime_td`). Each call costs extra API credits, so only fetch props you're seriously considering. If no line is posted, drop the candidate.
 4. **Evaluate each candidate** on:
    - Evidence strength (how specific, current, and well-sourced the case is).
@@ -59,30 +61,30 @@ Tier rules:
 - Be wary of trends that were cherry-picked: odd cutoffs (e.g. "since 2019 on Sundays in October"), stacked conditions, or a source selling picks. The more specific the filter, the less it means.
 - Use the most relevant trend per pick at most, not a list.
 
-5. **Choose ONE pick per requested tier**, plus a runner-up for each.
+5. **Choose 3 picks per requested tier**, ranked #1–#3. The picks ranked #2 and #3 take the place of a runner-up.
 6. **Log** each tier as its own entry in `picks_log.json`:
    ```json
-   {"week": 5, "risk_tier": "safe|balanced|aggressive", "date": "2026-10-10",
+   {"week": 5, "risk_tier": "safe|balanced|aggressive", "rank": 1, "date": "2026-10-10",
     "pick": "Team/Player + selection", "bet_type": "spread|moneyline|total|player prop",
     "line": "-3.5 (or ML)", "odds": "-110", "confidence": "High|Medium|Low",
     "confidence_note": "one line on what the confidence means for this market type",
     "reasoning": "1-2 sentence summary",
     "why": ["3-4 bullets, each citing a source or stat"],
     "breaks": "the single most likely failure",
-    "runner_up": "alternative + one sentence why",
     "trend": "OPTIONAL — omit the key entirely if no relevant trend. Trend + sample size + source + small-sample caveat + why it may be priced in",
     "sources": ["https://... or outlet + title"], "result": null}
    ```
-   If an entry already exists for that week **and tier**, ask whether to replace it. Other tiers for the week stay untouched.
+   One entry per (week, tier, rank), with `rank` 1–3. If entries already exist for that week **and tier**, ask whether to replace the whole tier (all of its ranks). Other tiers for the week stay untouched.
 7. **Publish:** `python3 build_site.py --push`. That rebuilds the homepage and the week page and commits and pushes everything. Report whether the push worked; if it fails, show the error.
-8. **Reply**, about one screen per tier, in this format for each tier generated (Safe → Balanced → Aggressive):
+8. **Reply**, about one screen per tier, grouped by tier (Safe → Balanced → Aggressive). The chat version is condensed because 9 full write-ups is too long; the week page has the full 3–4 Why bullets for every pick. Condense every tier the same way. For each pick:
 
-   **[Tier]: [team/player, bet type, line, odds]**
+   **[Tier] #[rank]: [team/player, bet type, line, odds]**
    - **Confidence:** [High/Medium/Low] — what that means given the market type
-   - **Why:** 3–4 bullets, each citing a specific source or stat
+   - **Why:** the 2 strongest bullets, each citing a specific source or stat
    - **What breaks this pick:** the single most likely failure
    - **Relevant historical trend:** [trend + source + sample size + "small sample — directional only, not a strong signal" if under ~20 games + one clause on why it's likely priced in]. **Only include this line if a genuinely relevant trend was found;** otherwise leave the line out entirely (don't write "none").
-   - **Runner-up:** one alternative, one sentence why
+
+   Flag any correlated picks (same game, or the same thing breaks both) right after the tier they're in.
 
    Then one combined **Sources used** list and the week page link (`https://kylebusher67.github.io/nfl-picks/week-N.html`).
 
@@ -91,8 +93,8 @@ Tier rules:
 ## Workflow: "update results"
 
 When given a game outcome (e.g. "week 5 safe won", "Bills covered"):
-1. Find the matching entry in `picks_log.json` by week **and tier** (match the team/player named; if it's unclear which entry, ask).
+1. Find the matching entries in `picks_log.json` by week and the team/player/game named. One game can settle several picks across tiers, so grade all of them. If it's unclear which entry is meant, ask.
 2. Set `"result"` to `"win"`, `"loss"`, or `"push"`. If the user gives a final score instead, grade it against the logged line and show the math. Grade every tier that game affects.
 3. Run `python3 build_site.py --push` so the result badges show on the site.
-4. Report the season record (W-L-P) and win % = wins / (wins + losses), pushes excluded, **overall and per tier**.
+4. Report the season record (W-L-P) and win % = wins / (wins + losses), pushes excluded, **overall and per tier** (all ranks), and also for #1 picks only, since those are the ones most likely to go into the parlay.
 5. Compare to the **~52.4% breakeven** needed at standard -110 odds (110/210). Since tiers use very different odds, also give each tier's breakeven from its logged odds (favorite -X: X/(X+100); underdog +X: 100/(X+100)). For example, a -700 pick needs 87.5% to break even. Keep it in perspective: small samples say very little about skill.
