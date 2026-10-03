@@ -197,7 +197,7 @@ def push(weeks):
         print("Nothing changed; no commit made.")
         return
     latest = weeks[-1] if weeks else "?"
-    commit = git("commit", "-m", f"Update picks site (through week {latest})")
+    commit = git("commit", "-m", f"Update picks site (through week {latest})\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>")
     if commit.returncode != 0:
         fail(f"git commit failed:\n{commit.stderr or commit.stdout}")
     pushed = git("push")
