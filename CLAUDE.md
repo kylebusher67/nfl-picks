@@ -39,6 +39,7 @@ Tier rules:
    - Injury reports: official team/NFL injury reports and beat reporters (practice participation, Out/Doubtful/Questionable designations). Note the date of each report.
    - Current-season team stats: efficiency (EPA/play, success rate, DVOA if available), turnover margin, home/away splits, relevant matchup stats.
    - Analyst picks from 2–3 outlets (e.g. ESPN, The Athletic, Action Network). Treat these as context, not evidence of an edge.
+   - **Recent player usage (last 3–4 games)** for every player relevant to a candidate: anyone in a prop, plus the starting QB, RB1 and top WRs/TE whose role drives a team-level pick. Use ESPN, Pro Football Reference or similar stat sites, and check snap count %, target share, carries and red-zone touches before raw yards or TDs. Then check the opposing defense's **recent** performance against that role (e.g. yards and targets allowed to slot WRs or RBs over the last few games, and who's covering), not just its season-long rank. See "Player trend rules" below.
    - Line movement: whether a line has moved since it opened (from line-move reporting in news coverage, with the source cited) and how much books disagree, using the `[books range ...]` in `fetch_odds.py` output.
    - **Historical ATS situational trends** (supporting context only; see "ATS trend rules" below). Search for trends that actually apply to this week's matchups, for example:
      - ATS record after a specific start (e.g. teams starting 0-3)
@@ -53,13 +54,21 @@ Tier rules:
    - Market type: spreads/totals/moneylines are sharp, liquid markets (prices are efficient, hard to beat); player props are thinner and more volatile (one injury, game script, or usage change swings them). **These are not equivalent confidence levels** — say so explicitly when comparing.
    - The single biggest risk that breaks the pick.
    - Parlay context: a leg only helps the group if it hits.
-   - **Evidence weighting, strongest to weakest:** (1) this week's injury reports, (2) current-season efficiency stats, (3) line movement and market agreement, (4) analyst picks and historical ATS trends. A trend can support a pick or add a caution, but **never make a trend the main reason for a pick**, and never let one override what the injury report or efficiency data says.
+   - **Evidence weighting, strongest to weakest:** (1) this week's injury reports, (2) current-season efficiency stats and role-driven player usage trends, (3) line movement and market agreement, (4) analyst picks, historical ATS trends, and production spikes without a usage change. A trend can support a pick or add a caution, but **never make a trend the main reason for a pick**, and never let one override what the injury report or efficiency data says.
 ### ATS trend rules
 - **Every trend needs a source and a sample size**, stated together: e.g. "13-4 ATS since 2021 (17 games), per [source]". If either one is missing, don't use the trend.
 - **Sample size caveat:** if a trend covers fewer than ~20 games, label it **"small sample — directional only, not a strong signal."** Even 20–50 games is noisy, so present those as context too, not proof.
 - **Assume the line already prices it in.** Well-known situational trends (bye weeks, rest, big favorites, 0-3 teams) are public, and the books and sharp bettors know them. Say explicitly why the trend may already be reflected in the line, and never present it as a hidden edge. A trend that runs against what the current-season data says is usually noise.
 - Be wary of trends that were cherry-picked: odd cutoffs (e.g. "since 2019 on Sundays in October"), stacked conditions, or a source selling picks. The more specific the filter, the less it means.
 - Use the most relevant trend per pick at most, not a list.
+
+### Player trend rules
+- **Role beats results.** Usage (snap %, target share, carries, red-zone touches) reflects role and predicts better than yards or TDs, which swing on a few plays.
+- **Label every player trend as role-driven or variance-driven.** It's role-driven when usage changed for a reason you can name: a new starter, a teammate's injury, a return from injury, a scheme change. It's variance-driven when production jumped but usage stayed flat (e.g. two long TD runs inflating a rushing average, or a TD streak on the same red-zone share). **Call a variance-driven hot streak noise, say so plainly, and give it low weight**, never present it as a trend.
+- **Check the matchup.** A rising role means less against a defense that has recently shut down that role (a shutdown corner shadowing the WR, a front that's stopped the run lately). Use the defense's recent games against that position, not just its season rank.
+- **For props, check whether the line already moved.** The Odds API only gives current lines, so compare the current prop line with the player's recent production and with any earlier line cited in news or analyst coverage (cite it). If the line has already climbed to match the hot streak, **say the trend is priced in and isn't an edge**. Never recommend a prop as if the market hadn't noticed the trend.
+- **Cite it fully.** When a player trend supports a pick, the Why bullet must state the specific metric, the sample (number of recent games), role-driven vs variance-driven, and whether the current line already reflects it. Example: "Target share up from 18% to 27% over the last 3 games since the WR2 went on IR (role-driven, ESPN); his receiving line rose from 48.5 to 61.5, so most of it is priced in."
+- **Don't force it.** Use a player trend only when it's genuinely among the strongest evidence for a pick. If recent player data neither supports nor contradicts the line, say so in one clause or leave it out. Don't build a weak angle to fill space.
 
 5. **Choose 3 picks per requested tier**, ranked #1–#3. The picks ranked #2 and #3 take the place of a runner-up.
 6. **Log** each tier as its own entry in `picks_log.json`:
