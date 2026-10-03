@@ -1,0 +1,34 @@
+[
+  {
+    "week": 4,
+    "date": "2026-10-03",
+    "game": "New York Jets @ Chicago Bears (Sun 1:00 PM ET)",
+    "spread": "Jets +3.5",
+    "odds": "-110 (median; -105 best at LowVig.ag)",
+    "rating": "Chris has a chance!",
+    "why": "Chicago is starting 38-year-old backup Case Keenum, and +3.5 means the Jets still cover with a 3-point loss, which is the most common NFL margin. The market makes this a near coin flip (-110 on both sides, unchanged all week), and the evidence is roughly balanced rather than stacked against New York. It's live, not good: the Jets are missing four offensive starters, so treat it as a coin flip with a backup-QB tailwind.",
+    "evidence": [
+      "Injuries: Bears QB Caleb Williams is out 3-4 weeks (Grade 2 hamstring); Keenum starts (KSL/AP). Jets are without RB Breece Hall, WR Adonai Mitchell, TE Mason Taylor and LG Dylan Parham; rookie TE Kenyon Sadiq is questionable (ESPN, NFL.com).",
+      "Player usage: with Hall out, Braelon Allen takes over (19 carries for 61 yards, 3.2 per carry, so far), a role change that lowers the run game. Geno Smith is 75.5% passing with 4 TD, 0 INT in 3 games (Yahoo Sports).",
+      "Hot-streak check: Garrett Wilson and Sadiq's 212 yards in Week 3 came against Detroit, the league's worst defense by EPA (Sharp Football). That's matchup-inflated production with no usage data showing a role change, so it gets low weight. Keenum's 247 yards and 2 TDs against a depleted Eagles team is likewise one game.",
+      "Efficiency: Jets defense allows 4.8 yards/play vs Chicago's 6.1; Chicago's offense gains 5.9 yards/play to New York's 5.0, mostly with Williams at QB (Sharp Football).",
+      "Against: the Jets' line allowed 9 sacks in Weeks 2-3 after 0 in Week 1 (amNY), and Parham's absence doesn't help. Chicago is home off a 27-7 win over Philadelphia.",
+      "Line movement: Bears -3.5 on Sept 30 (amNY) and Oct 1 (Covers), still -3.5 now (Odds API). Hall's injury was known all week and didn't move the line.",
+      "Analysts: Covers takes Jets +3.5; NFL.com analysts split 3-2 for Chicago outright."
+    ],
+    "trend": "Jets went 3-4-1 ATS as a road underdog in 2025 (8 games, per TeamRankings BetIQ). Small sample \u2014 directional only, not a strong signal, and it's a different roster and QB, so it barely applies.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03 12:33 ET)",
+      "https://www.amny.com/sports/jets-bears-w4-pre-9-30-26/",
+      "https://sports.yahoo.com/articles/5-things-watch-jets-face-123000616.html",
+      "https://www.ksl.com/article/51629741/case-keenum-starts-at-quarterback-for-the-bears-against-the-eagles",
+      "https://www.espn.com/nfl/injuries",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
+      "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026",
+      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
+      "https://betiq.teamrankings.com/nfl/betting-trends/spread-ats-records-as-away-underdog/"
+    ],
+    "result": null
+  }
+]

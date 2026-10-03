@@ -100,4 +100,20 @@ li + li { margin-top: 0.4rem; }
 .result-loss { background: var(--aggressive); }
 .result-push { background: var(--muted); }
 
+/* The Jets Spread Rating: deliberately set apart from the real picks */
+.jets {
+  margin-top: 2.5rem; padding: 1.25rem 1.4rem;
+  border: 2px dashed #125740; border-radius: 12px; background: var(--card);
+}
+.jets h2 { margin: 0; font-size: 1.15rem; color: #125740; text-transform: uppercase; letter-spacing: 0.06em; }
+.jets-note { color: var(--muted); font-size: 0.85rem; margin: 0.2rem 0 0.8rem; }
+.jets-rating { font-size: 1.3rem; font-weight: 700; margin: 0.6rem 0; }
+.jets-level-0 { color: var(--safe); }
+.jets-level-1 { color: var(--balanced); }
+.jets-level-2 { color: var(--aggressive); }
+@media (prefers-color-scheme: dark) {
+  .jets { border-color: #4fbf8f; }
+  .jets h2 { color: #4fbf8f; }
+}
+
 footer { color: var(--muted); font-size: 0.85rem; margin-top: 2rem; }

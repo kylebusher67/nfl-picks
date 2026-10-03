@@ -7,6 +7,7 @@ A 6-person friend-group parlay pool: each week one person's pick becomes one leg
 - `picks_log.json` — JSON array of picks, one entry per (week, risk tier). **Source of truth for the website.**
 - `build_site.py` — generates `index.html` (homepage listing every week) and `week-N.html` (one page per week, all tiers) from `picks_log.json`. `--push` also commits and pushes. **Never hand-edit the HTML files**; edit the log and rebuild.
 - `style.css` — shared styling for all pages.
+- `jets_log.json` — The Jets Spread Rating, one entry per week. **Kept separate from `picks_log.json` on purpose:** it is never a parlay pick and never counts toward the season record.
 - `.env` — secret. Never print, echo, or commit the key.
 
 The site is static (GitHub Pages, https://kylebusher67.github.io/nfl-picks/). Never add anything to the site that calls the Odds API or exposes the key; generation only happens locally.
@@ -85,6 +86,7 @@ Tier rules:
     "sources": ["https://... or outlet + title"], "result": null}
    ```
    One entry per (week, tier, rank), with `rank` 1–3. If entries already exist for that week **and tier**, ask whether to replace the whole tier (all of its ranks). Other tiers for the week stay untouched.
+6b. **The Jets Spread Rating** (runs every time, after the three tiers, even if only one tier was requested). See the section below; write its entry to `jets_log.json` before publishing.
 7. **Publish:** `python3 build_site.py --push`. That rebuilds the homepage and the week page and commits and pushes everything. Report whether the push worked; if it fails, show the error.
 8. **Reply**, about one screen per tier, grouped by tier (Safe → Balanced → Aggressive). The chat version is condensed because 9 full write-ups is too long; the week page has the full 3–4 Why bullets for every pick. Condense every tier the same way. For each pick:
 
@@ -96,9 +98,38 @@ Tier rules:
 
    Flag any correlated picks (same game, or the same thing breaks both) right after the tier they're in.
 
+   Then, as a 4th item clearly separated from the picks (a horizontal rule and its own heading):
+
+   **The Jets Spread Rating** *(not a parlay pick)*
+   - **[Jets spread, odds]:** **[rating, verbatim]**
+   - 2–3 sentences on why, in the same evidence-based tone as the picks
+   - **Relevant historical trend:** only if a real one applies (same rules as the picks)
+
    Then one combined **Sources used** list and the week page link (`https://kylebusher67.github.io/nfl-picks/week-N.html`).
 
    Confidence guide: **High** is rare — strong, multi-source, current evidence in any market. Player props should almost never be High. **Low** whenever key injury news is unresolved (e.g. a Questionable QB) or sources conflict. Confidence is about evidence quality, not the tier: an aggressive pick can be Medium, and a safe pick can be Low.
+
+## The Jets Spread Rating
+
+A recurring joke item with real analysis behind it. The rating label is the joke; the reasoning is not.
+
+1. **Find the Jets' game** in this week's `fetch_odds.py` output and take the Jets' spread (median line and price). **If the Jets are on a bye**, say so plainly in one line, log `{"week": N, "date": "...", "bye": true}`, and skip the rest.
+2. **Give it the same research as a main pick:** this week's injuries for both teams, recent player usage (QB, RB1, top targets: role-driven vs variance-driven, per the player trend rules), current-season efficiency, line movement, and ATS trends (per the ATS trend rules, with source, sample size and small-sample caveats). Use the same evidence weighting as the picks. The odds floor doesn't apply here, because this is a rating, not a pick.
+3. **Assign exactly one rating, using these labels verbatim** (punctuation included; `build_site.py` rejects anything else):
+   - **"Chris has a chance!"** — the spread is genuinely live: real statistical support for the Jets covering, even as underdogs.
+   - **"Why did he pick that?"** — mixed signals: some support, but more working against them than for them. Unlikely but not absurd.
+   - **"Yup, Chris is next week's bozo."** — the evidence clearly points to the Jets failing to cover. The "don't do this" tier.
+   Rate it on the evidence, not on the joke: if the Jets genuinely look live, say so.
+4. **Log** to `jets_log.json` (one entry per week; replace that week's entry if regenerating):
+   ```json
+   {"week": 5, "date": "2026-10-10", "game": "Jets @ Opponent (kickoff)", "spread": "Jets +3.5",
+    "odds": "-110", "rating": "<one of the three labels, verbatim>",
+    "why": "2-3 sentences explaining the rating",
+    "evidence": ["injury, usage, efficiency, line-movement and analyst bullets, each sourced"],
+    "trend": "OPTIONAL, same rules as picks; omit the key if none",
+    "sources": ["..."], "result": null}
+   ```
+5. The week page shows it in its own dashed-border section below the tiers, labeled "Not a parlay pick". Never mix it into the tiers or the reply's pick list.
 
 ## Workflow: "update results"
 
@@ -106,5 +137,6 @@ When given a game outcome (e.g. "week 5 safe won", "Bills covered"):
 1. Find the matching entries in `picks_log.json` by week and the team/player/game named. One game can settle several picks across tiers, so grade all of them. If it's unclear which entry is meant, ask.
 2. Set `"result"` to `"win"`, `"loss"`, or `"push"`. If the user gives a final score instead, grade it against the logged line and show the math. Grade every tier that game affects.
 3. Run `python3 build_site.py --push` so the result badges show on the site.
+3b. If the Jets played, also grade `jets_log.json` for that week: set `"result"` to `"cover"`, `"no cover"` or `"push"` against the logged spread. Report it in one line, plus how often the rating has been right this season. **Never include it in the pick record.**
 4. Report the season record (W-L-P) and win % = wins / (wins + losses), pushes excluded, **overall and per tier** (all ranks), and also for #1 picks only, since those are the ones most likely to go into the parlay.
 5. Compare to the **~52.4% breakeven** needed at standard -110 odds (110/210). Since tiers use very different odds, also give each tier's breakeven from its logged odds (favorite -X: X/(X+100); underdog +X: 100/(X+100)). For example, a -500 pick needs 83.3% to break even. Keep it in perspective: small samples say very little about skill.

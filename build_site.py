@@ -20,6 +20,8 @@ from urllib.parse import urlparse
 
 HERE = Path(__file__).resolve().parent
 LOG_PATH = HERE / "picks_log.json"
+JETS_PATH = HERE / "jets_log.json"
+JETS_RATINGS = ["Chris has a chance!", "Why did he pick that?", "Yup, Chris is next week's bozo."]
 SITE_TITLE = "Bozo Parlay Picks"
 TIER_ORDER = ["safe", "balanced", "aggressive"]
 TIER_BLURBS = {
@@ -49,6 +51,48 @@ def load_picks():
         if missing:
             fail(f"picks_log.json entry #{i} is missing {', '.join(missing)}")
     return picks
+
+
+def load_jets():
+    """Jets Spread Rating entries, keyed by week. Kept out of picks_log.json so they never count as picks."""
+    if not JETS_PATH.exists():
+        return {}
+    try:
+        entries = json.loads(JETS_PATH.read_text())
+    except json.JSONDecodeError as e:
+        fail(f"jets_log.json is not valid JSON: {e}")
+    by_week = {}
+    for i, j in enumerate(entries):
+        if "week" not in j:
+            fail(f"jets_log.json entry #{i} is missing week")
+        if not j.get("bye") and j.get("rating") not in JETS_RATINGS:
+            fail(f"jets_log.json entry #{i} has rating {j.get('rating')!r}; it must be exactly one of {JETS_RATINGS}")
+        by_week[int(j["week"])] = j
+    return by_week
+
+
+def render_jets(j):
+    if j.get("bye"):
+        return ('<section class="jets"><h2>The Jets Spread Rating</h2>'
+                '<p>The Jets are on a bye this week. No spread, no rating.</p></section>')
+    level = JETS_RATINGS.index(j["rating"])
+    evidence = "".join(f"<li>{escape(x)}</li>" for x in j.get("evidence", []))
+    parts = [
+        '<section class="jets">',
+        '<h2>The Jets Spread Rating</h2>',
+        '<p class="jets-note">Not a parlay pick. A weekly check on the Jets spread.</p>',
+        f'<p class="meta">{escape(j.get("game", ""))} · {escape(j.get("spread", ""))} · {escape(j.get("odds", ""))}{result_badge(j)}</p>',
+        f'<p class="jets-rating jets-level-{level}">{escape(j["rating"])}</p>',
+        f'<p>{escape(j.get("why", ""))}</p>',
+    ]
+    if evidence:
+        parts.append(f"<h3>Evidence</h3><ul>{evidence}</ul>")
+    if j.get("trend"):
+        parts.append(f'<div class="trend"><h3>Relevant historical trend</h3><p>{escape(j["trend"])}</p></div>')
+    if j.get("sources"):
+        parts.append('<p class="sources">Sources: ' + ", ".join(source_link(x) for x in j["sources"]) + "</p>")
+    parts.append("</section>")
+    return "\n".join(parts)
 
 
 def tier_of(pick):
@@ -124,7 +168,7 @@ def render_pick_card(pick):
     return "\n".join(parts)
 
 
-def render_week(week, picks):
+def render_week(week, picks, jets=None):
     by_tier = defaultdict(list)
     for p in picks:
         by_tier[tier_of(p)].append(p)
@@ -147,7 +191,8 @@ def render_week(week, picks):
 <h1>Week {week} Picks</h1>
 {f'<nav class="tiers">{nav}</nav>' if nav else ''}
 </header>
-{chr(10).join(groups)}"""
+{chr(10).join(groups)}
+{render_jets(jets) if jets else ''}"""
     return page(f"Week {week} Picks · {SITE_TITLE}", body)
 
 
@@ -177,6 +222,9 @@ in up to three risk tiers: safe, balanced and aggressive.</p>
 
 def build():
     weeks = defaultdict(list)
+    jets = load_jets()
+    for week in jets:
+        weeks[week]  # a week with only a Jets rating still gets a page
     for p in load_picks():
         weeks[int(p["week"])].append(p)
 
@@ -184,7 +232,7 @@ def build():
     (HERE / "index.html").write_text(render_home(weeks))
     for week, picks in weeks.items():
         path = HERE / f"week-{week}.html"
-        path.write_text(render_week(week, picks))
+        path.write_text(render_week(week, picks, jets.get(week)))
         written.append(path)
 
     # Remove pages for weeks no longer in the log
