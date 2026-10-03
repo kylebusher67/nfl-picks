@@ -3,115 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bozo Parlay — Week 4 Pick</title>
-<style>
-  :root {
-    --bg: #f6f5f1;
-    --card: #ffffff;
-    --text: #1d1d1f;
-    --muted: #6b6b70;
-    --border: #e3e1da;
-    --accent: #241773;
-    --high: #1f7a3a;
-    --risk: #a33a1f;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #141416;
-      --card: #1e1e22;
-      --text: #ececef;
-      --muted: #9a9aa2;
-      --border: #2e2e34;
-      --accent: #a99cf0;
-      --high: #5cc27d;
-      --risk: #f08a6a;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    padding: 2rem 1rem 3rem;
-    background: var(--bg);
-    color: var(--text);
-    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  }
-  main { max-width: 640px; margin: 0 auto; }
-  header p { margin: 0; color: var(--muted); font-size: 0.9rem; letter-spacing: 0.04em; text-transform: uppercase; }
-  h1 { margin: 0.25rem 0 1.5rem; font-size: 1.6rem; line-height: 1.25; }
-  section {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 1.25rem 1.4rem;
-    margin-bottom: 1rem;
-  }
-  h2 { margin: 0 0 0.6rem; font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
-  .pick { font-size: 1.35rem; font-weight: 650; color: var(--accent); margin: 0; }
-  .meta { margin: 0.35rem 0 0; color: var(--muted); font-size: 0.95rem; }
-  .badge {
-    display: inline-block;
-    padding: 0.15rem 0.6rem;
-    border-radius: 999px;
-    font-weight: 650;
-    font-size: 0.9rem;
-    color: var(--high);
-    border: 1.5px solid currentColor;
-    margin-right: 0.4rem;
-  }
-  ul { margin: 0; padding-left: 1.2rem; }
-  li + li { margin-top: 0.45rem; }
-  .risk { border-left: 4px solid var(--risk); }
-  .risk p { margin: 0; }
-  a { color: var(--accent); }
-  footer { color: var(--muted); font-size: 0.85rem; margin-top: 1.5rem; }
-</style>
+<title>Bozo Parlay Picks</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
-  <header>
-    <p>Bozo Parlay · NFL Week 4 · Sun Oct 4, 2026</p>
-    <h1>This Week's Pick</h1>
-  </header>
-
-  <section>
-    <h2>The pick</h2>
-    <p class="pick">Baltimore Ravens moneyline vs. Titans</p>
-    <p class="meta">-700 median across 9 books (best -650, DraftKings) · Kickoff 1:00 PM ET</p>
-  </section>
-
-  <section>
-    <h2>Confidence</h2>
-    <p><span class="badge">High</span>High chance this leg hits, not a betting edge: the market already prices Baltimore at roughly 85% to win. It's a safe parlay leg that adds very little payout.</p>
-  </section>
-
-  <section>
-    <h2>Why</h2>
-    <ul>
-      <li>Tennessee has scored 37 points in 3 games (0-3); only Miami and New England have scored fewer.</li>
-      <li>Lamar Jackson is reported healthy, in "peak condition" per the Ravens, after going 15/20 with 2 TDs in Week 3.</li>
-      <li>Baltimore runs for 5.2 yards a carry; Tennessee has already allowed 379 rushing yards.</li>
-      <li>All 5 NFL.com analysts pick Baltimore; even Covers, taking Tennessee +11.5, expects the Ravens to win.</li>
-    </ul>
-  </section>
-
-  <section class="risk">
-    <h2>What breaks this pick</h2>
-    <p>A Lamar Jackson in-game injury forcing a backup to hold the lead. Two Ravens starters, OT Ronnie Stanley and WR Zay Flowers, are questionable.</p>
-  </section>
-
-  <section>
-    <h2>Runner-up</h2>
-    <p>Packers -3.5 (+100): Tampa Bay starts undrafted rookie QB Jalon Daniels, but it's a coin-flip market and Green Bay's interior O-line is banged up.</p>
-  </section>
-
-  <footer>
-    For fun among friends. Not betting advice, and no proven edge against sportsbook lines.
-    Sources: The Odds API, <a href="https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season">NFL.com</a>,
-    <a href="https://www.covers.com/nfl/picks-against-the-spread-week-4-2026">Covers</a>,
-    <a href="https://www.espn.com/nfl/injuries">ESPN injuries</a>,
-    <a href="https://www.baltimoreravens.com/news/lamar-jackson-peak-condition-depth-chart-jonathan-taylor-2026-season-news-notes">Ravens.com</a>,
-    <a href="https://www.squawka.com/en/?p=1497935">Squawka</a>.
-  </footer>
+<header>
+<p class="eyebrow">6 friends · 6 legs · 1 parlay</p>
+<h1>Bozo Parlay Picks</h1>
+<p class="lede">Each week one of us adds a leg to the group parlay. These are the researched picks for each week,
+in up to three risk tiers: safe, balanced and aggressive.</p>
+</header>
+<div class="weeks"><a class="week-card" href="week-4.html"><span class="week-title">Week 4 Picks</span><span class="chips"><span class="chip tier-safe">Safe</span></span></a></div>
+<footer>For fun among friends. Not betting advice, and no proven edge against sportsbook lines.</footer>
 </main>
 </body>
 </html>

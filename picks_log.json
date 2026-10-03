@@ -1,13 +1,23 @@
 [
   {
     "week": 4,
+    "risk_tier": "safe",
     "date": "2026-10-03",
     "pick": "Baltimore Ravens moneyline vs Tennessee Titans",
     "bet_type": "moneyline",
     "line": "ML",
     "odds": "-700 (median; -650 best at DraftKings)",
     "confidence": "High",
+    "confidence_note": "High chance this leg hits, not a betting edge: the market already prices Baltimore at roughly 85% to win. Safe leg, very little payout.",
     "reasoning": "Parlay-leg pick chosen to maximize hit probability: Titans have scored 37 points in 3 games, Lamar Jackson reported healthy, all 5 NFL.com analysts pick BAL. Market already prices ~85% win chance, so this is safety, not an edge.",
+    "why": [
+      "Tennessee has scored 37 points in 3 games (0-3); only Miami and New England have scored fewer (Squawka).",
+      "Lamar Jackson is reported healthy, in \"peak condition\" per the Ravens, after going 15/20 with 2 TDs in Week 3 (Ravens.com).",
+      "Baltimore runs for 5.2 yards a carry; Tennessee has already allowed 379 rushing yards (Squawka).",
+      "All 5 NFL.com analysts pick Baltimore; even Covers, taking Tennessee +11.5, expects the Ravens to win."
+    ],
+    "breaks": "A Lamar Jackson in-game injury forcing a backup to hold the lead. Two Ravens starters, OT Ronnie Stanley and WR Zay Flowers, are questionable.",
+    "runner_up": "Packers -3.5 (+100): Tampa Bay starts undrafted rookie QB Jalon Daniels, but it's a coin-flip market and Green Bay's interior O-line is banged up.",
     "sources": [
       "the-odds-api.com (fetched 2026-10-03)",
       "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",

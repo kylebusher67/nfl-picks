@@ -1,0 +1,98 @@
+:root {
+  --bg: #f6f5f1;
+  --card: #ffffff;
+  --text: #1d1d1f;
+  --muted: #6b6b70;
+  --border: #e3e1da;
+  --accent: #241773;
+  --safe: #1f7a3a;
+  --balanced: #8a6100;
+  --aggressive: #a33a1f;
+  --risk: #a33a1f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141416;
+    --card: #1e1e22;
+    --text: #ececef;
+    --muted: #9a9aa2;
+    --border: #2e2e34;
+    --accent: #a99cf0;
+    --safe: #5cc27d;
+    --balanced: #e0b54a;
+    --aggressive: #f08a6a;
+    --risk: #f08a6a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 2rem 1rem 3rem;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+main { max-width: 680px; margin: 0 auto; }
+a { color: var(--accent); }
+h1 { margin: 0.25rem 0 1rem; font-size: 1.7rem; line-height: 1.25; }
+h3 { margin: 1.1rem 0 0.4rem; font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+p { margin: 0 0 0.5rem; }
+ul { margin: 0; padding-left: 1.2rem; }
+li + li { margin-top: 0.4rem; }
+
+.eyebrow { margin: 0; color: var(--muted); font-size: 0.85rem; letter-spacing: 0.04em; text-transform: uppercase; }
+.lede { color: var(--muted); max-width: 52ch; margin-bottom: 1.5rem; }
+.crumbs { margin-bottom: 1rem; font-size: 0.9rem; }
+.crumbs a { text-decoration: none; }
+
+/* Homepage week list */
+.weeks { display: grid; gap: 0.75rem; }
+.week-card {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem;
+  padding: 1.1rem 1.3rem;
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+  color: var(--text); text-decoration: none;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.week-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+.week-title { font-size: 1.15rem; font-weight: 650; }
+.chips { display: flex; gap: 0.35rem; flex-wrap: wrap; }
+.chip { font-size: 0.75rem; font-weight: 600; padding: 0.1rem 0.55rem; border-radius: 999px; border: 1.5px solid currentColor; }
+.chip.tier-safe { color: var(--safe); }
+.chip.tier-balanced { color: var(--balanced); }
+.chip.tier-aggressive { color: var(--aggressive); }
+
+/* Week page */
+.tiers { display: flex; gap: 1rem; margin-bottom: 1.25rem; font-size: 0.9rem; }
+.card {
+  background: var(--card); border: 1px solid var(--border); border-top: 4px solid var(--muted);
+  border-radius: 12px; padding: 1.25rem 1.4rem; margin-bottom: 1.25rem;
+  scroll-margin-top: 1rem;
+}
+.card.tier-safe { border-top-color: var(--safe); }
+.card.tier-balanced { border-top-color: var(--balanced); }
+.card.tier-aggressive { border-top-color: var(--aggressive); }
+.tier-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.6rem; margin-bottom: 0.6rem; }
+.tier-label { font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; }
+.tier-safe .tier-label { color: var(--safe); }
+.tier-balanced .tier-label { color: var(--balanced); }
+.tier-aggressive .tier-label { color: var(--aggressive); }
+.tier-blurb { color: var(--muted); font-size: 0.85rem; }
+.pick { font-size: 1.3rem; font-weight: 650; color: var(--accent); margin: 0; }
+.meta { color: var(--muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.badge {
+  display: inline-block; padding: 0.1rem 0.6rem; margin-right: 0.45rem;
+  border-radius: 999px; font-weight: 650; font-size: 0.85rem; border: 1.5px solid currentColor;
+}
+.conf-high { color: var(--safe); }
+.conf-medium { color: var(--balanced); }
+.conf-low { color: var(--aggressive); }
+.risk { border-left: 4px solid var(--risk); padding-left: 0.9rem; margin-top: 1rem; }
+.risk h3 { margin-top: 0; }
+.sources { margin-top: 1rem; font-size: 0.85rem; color: var(--muted); }
+.result { font-size: 0.75rem; font-weight: 700; padding: 0.1rem 0.5rem; border-radius: 6px; vertical-align: middle; color: #fff; }
+.result-win { background: var(--safe); }
+.result-loss { background: var(--aggressive); }
+.result-push { background: var(--muted); }
+
+footer { color: var(--muted); font-size: 0.85rem; margin-top: 2rem; }
