@@ -4,35 +4,6 @@
     "risk_tier": "safe",
     "rank": 1,
     "date": "2026-10-03",
-    "pick": "Baltimore Ravens moneyline vs Tennessee Titans",
-    "bet_type": "moneyline",
-    "line": "ML",
-    "odds": "-700 (median; -680 best at BetUS)",
-    "confidence": "High",
-    "confidence_note": "High evidence quality, but the price already makes Baltimore about 85% to win (no-vig): a safe leg with almost no payout, not an edge.",
-    "reasoning": "Biggest efficiency gap on the slate plus unanimous analyst agreement; chosen for hit probability.",
-    "why": [
-      "Tennessee has scored 37 points in 3 games (0-3); only Miami and New England have scored fewer (Squawka).",
-      "Offense EPA/play: Baltimore +0.13 (6.7 yards/play) vs Tennessee -0.10 (4.8 yards/play) (Sharp Football, through Week 3).",
-      "Tennessee has allowed 379 rushing yards in 3 games; Baltimore runs for 5.2 yards a carry (Squawka).",
-      "All 5 NFL.com analysts pick Baltimore, by 7 to 16 points."
-    ],
-    "breaks": "A Lamar Jackson in-game injury. Baltimore is also missing OLB Trey Hendrickson (out), and OT Ronnie Stanley and WR Zay Flowers are questionable.",
-    "sources": [
-      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
-      "https://www.squawka.com/en/?p=1497935",
-      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
-      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
-      "https://www.espn.com/nfl/injuries",
-      "https://www.cbssports.com/nfl/news/nfl-week-4-injury-report-justin-jefferson-aaron-donald-terry-mclaurin/"
-    ],
-    "result": null
-  },
-  {
-    "week": 4,
-    "risk_tier": "safe",
-    "rank": 2,
-    "date": "2026-10-03",
     "pick": "Buffalo Bills moneyline vs New England Patriots",
     "bet_type": "moneyline",
     "line": "ML",
@@ -55,35 +26,6 @@
       "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-christian-gonzalez-and-christian-barmore-for-sunday-s-week-4-matchup-vs-bills",
       "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
       "https://sports.yahoo.com/nfl/betting/article/nfl-betting-odds-lines-betting-trends-to-know-for-week-4s-biggest-games-205616693.html"
-    ],
-    "result": null
-  },
-  {
-    "week": 4,
-    "risk_tier": "safe",
-    "rank": 3,
-    "date": "2026-10-03",
-    "pick": "Minnesota Vikings moneyline vs Miami Dolphins",
-    "bet_type": "moneyline",
-    "line": "ML",
-    "odds": "-610 (median; -520 best at FanDuel)",
-    "confidence": "Medium",
-    "confidence_note": "Medium: Miami is clearly outmatched, but Minnesota's own offense is the league's least efficient by yards/play. The price implies about 83% (no-vig).",
-    "reasoning": "Strong defense vs a winless team that just lost its best offensive player.",
-    "why": [
-      "Miami lost RB De'Von Achane for the season (torn ACL) and is winless, outscored by 14+ in every loss (CBS Sports, NBC Sports).",
-      "Miami's defense allows 6.1 yards/play, among the league's worst; Minnesota allows 4.8 (Sharp Football).",
-      "All 5 NFL.com analysts pick Minnesota, by 9 to 20 points."
-    ],
-    "breaks": "Minnesota's offense (4.3 yards/play, last in the NFL) without Justin Jefferson (out) can't pull away, and one Miami turnover-driven score flips a low-total (38.5) game.",
-    "sources": [
-      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
-      "https://www.cbssports.com/nfl/news/nfl-week-4-picks-odds-best-bets-chiefs-vegas-lions-panthers/",
-      "https://www.nbcsports.com/fantasy/football/news/2026-nfl-week-4-injury-report-achane-acl-baker-thumb-jefferson-ankle-breece-hall-quad-and-more",
-      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
-      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
-      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
-      "https://www.vikings.com/news/dolphins-injury-report-week-4-2026-nfl-season"
     ],
     "result": null
   },
@@ -249,12 +191,70 @@
     "why": [
       "Tennessee has allowed 379 rushing yards in 3 games, about 126 a game (Squawka).",
       "Henry carried 26 times in Week 3; Baltimore has run 97 times for 502 yards this season (Squawka).",
-      "Baltimore is an 11.5-point favorite, so the expected game script is a lead and lots of runs (Odds API)."
+      "Baltimore is an 11.5-point favorite, so the expected game script is a lead and lots of runs (Odds API). (Baltimore's -700 moneyline is excluded under the -500 odds floor, but the spread still describes the expected game.)"
     ],
-    "breaks": "A blowout so big that Henry sits in the 4th quarter, with Tony Pollard (line 47.5 yards) taking the late carries. Correlated with the Safe #1 Ravens pick: Baltimore winning big helps both until Henry gets pulled.",
+    "breaks": "A blowout so big that Henry sits in the 4th quarter, with Tony Pollard (line 47.5 yards) taking the late carries.",
     "sources": [
       "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
       "https://www.squawka.com/en/?p=1497935"
+    ],
+    "result": null
+  },
+  {
+    "week": 4,
+    "risk_tier": "safe",
+    "rank": 2,
+    "date": "2026-10-03",
+    "pick": "Seattle Seahawks moneyline vs Los Angeles Chargers",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-350 (median; -340 best at Bovada)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: the defensive mismatch is strong, but Seattle's own offense is average and missing both top RBs. The price implies about 75% (no-vig).",
+    "reasoning": "League's stingiest defense at home against one of the least efficient offenses.",
+    "why": [
+      "Seattle allows 3.8 yards/play, the fewest in the NFL (Sharp Football; Covers).",
+      "Chargers offense EPA/play is -0.15, 28th in the NFL (Sharp Football).",
+      "All 5 NFL.com analysts pick Seattle, by 6 to 12 points."
+    ],
+    "breaks": "Turnovers: the Chargers forced five in Buffalo (Covers), and Seattle's offense (-0.02 EPA/play) is without RBs Zach Charbonnet and Jadarian Price (out). Justin Herbert is not on the injury report.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026",
+      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
+      "https://www.espn.com/nfl/injuries",
+      "https://www.chargers.com/news/seahawks-injury-report-week-4"
+    ],
+    "result": null
+  },
+  {
+    "week": 4,
+    "risk_tier": "safe",
+    "rank": 3,
+    "date": "2026-10-03",
+    "pick": "Los Angeles Rams moneyline at Philadelphia Eagles",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-190 (median; -185 best at DraftKings)",
+    "confidence": "Medium",
+    "confidence_note": "Medium, leaning low: the injury gap favors the Rams, but analysts are split. The price implies about 63% (no-vig), a smaller safety cushion than the other Safe picks.",
+    "reasoning": "Philadelphia is missing most of its pass-catchers while the Rams get Puka Nacua back.",
+    "why": [
+      "Philadelphia ruled out WR DeVonta Smith, TE Dallas Goedert, WR Hollywood Brown, LB Zack Baun and OT Fred Johnson (ESPN, NFL.com).",
+      "Puka Nacua is expected to return for the Rams (NFL.com, CBS Sports).",
+      "Offense EPA/play: Rams -0.02 vs Eagles -0.10 (Sharp Football); CBS takes Rams -3.5 and 3 of 5 NFL.com analysts pick the Rams."
+    ],
+    "breaks": "Philadelphia at home with its defensive front applying pressure; 2 of 5 NFL.com analysts and Covers (Eagles +3.5) like Philadelphia. The Rams are 1-9 SU vs Philadelphia since 2005 (Yahoo Sports), though those were very different rosters.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
+      "https://www.espn.com/nfl/injuries",
+      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
+      "https://www.cbssports.com/nfl/news/nfl-week-4-picks-odds-best-bets-chiefs-vegas-lions-panthers/",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026",
+      "https://sports.yahoo.com/nfl/betting/article/nfl-betting-odds-lines-betting-trends-to-know-for-week-4s-biggest-games-205616693.html"
     ],
     "result": null
   }

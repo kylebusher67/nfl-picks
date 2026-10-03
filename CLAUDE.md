@@ -16,6 +16,7 @@ The site is static (GitHub Pages, https://kylebusher67.github.io/nfl-picks/). Ne
 - **Lines and odds come only from `fetch_odds.py`.** Don't scrape or fetch sportsbook sites. If a line isn't in the API output, don't quote it.
 - **If reliable current info is thin, say so plainly.** Lower the confidence or say "no strong pick this week" rather than force a confident-sounding answer.
 - Always state today's date and confirm the NFL week number via search before analyzing.
+- **Odds floor: never pick anything priced shorter than -500** (e.g. -550, -700 or -1000 are out; -500 itself is allowed). Judge by the median price in `fetch_odds.py` output, not one outlier book. This applies to every tier and to props. Drop such candidates before evaluating; don't mention them as near-misses.
 
 ## Workflow: "generate this week's pick" (optionally with a risk level)
 
@@ -23,7 +24,7 @@ Risk level is optional: "generate this week's pick — safe" / "balanced" / "agg
 
 | Tier | What it is |
 |---|---|
-| **Safe** | Sharp, liquid markets (spread, total, heavy-favorite moneyline) with the strongest evidence. Lower payout, likeliest to hit. |
+| **Safe** | Sharp, liquid markets (spread, total, favorite moneyline no shorter than -500) with the strongest evidence. Lower payout, likeliest to hit. |
 | **Balanced** | Solid evidence at moderate odds (roughly -150 to +130). A sensible parlay leg without being reckless. |
 | **Aggressive** | Higher odds (underdog moneylines, player props, close calls). Real upside, but it **trades win probability for payout**. |
 
@@ -106,4 +107,4 @@ When given a game outcome (e.g. "week 5 safe won", "Bills covered"):
 2. Set `"result"` to `"win"`, `"loss"`, or `"push"`. If the user gives a final score instead, grade it against the logged line and show the math. Grade every tier that game affects.
 3. Run `python3 build_site.py --push` so the result badges show on the site.
 4. Report the season record (W-L-P) and win % = wins / (wins + losses), pushes excluded, **overall and per tier** (all ranks), and also for #1 picks only, since those are the ones most likely to go into the parlay.
-5. Compare to the **~52.4% breakeven** needed at standard -110 odds (110/210). Since tiers use very different odds, also give each tier's breakeven from its logged odds (favorite -X: X/(X+100); underdog +X: 100/(X+100)). For example, a -700 pick needs 87.5% to break even. Keep it in perspective: small samples say very little about skill.
+5. Compare to the **~52.4% breakeven** needed at standard -110 odds (110/210). Since tiers use very different odds, also give each tier's breakeven from its logged odds (favorite -X: X/(X+100); underdog +X: 100/(X+100)). For example, a -500 pick needs 83.3% to break even. Keep it in perspective: small samples say very little about skill.
