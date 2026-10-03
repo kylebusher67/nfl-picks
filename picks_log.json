@@ -7,24 +7,253 @@
     "pick": "Baltimore Ravens moneyline vs Tennessee Titans",
     "bet_type": "moneyline",
     "line": "ML",
-    "odds": "-700 (median; -650 best at DraftKings)",
+    "odds": "-700 (median; -680 best at BetUS)",
     "confidence": "High",
-    "confidence_note": "High chance this leg hits, not a betting edge: the market already prices Baltimore at roughly 85% to win. Safe leg, very little payout.",
-    "reasoning": "Parlay-leg pick chosen to maximize hit probability: Titans have scored 37 points in 3 games, Lamar Jackson reported healthy, all 5 NFL.com analysts pick BAL. Market already prices ~85% win chance, so this is safety, not an edge.",
+    "confidence_note": "High evidence quality, but the price already makes Baltimore about 85% to win (no-vig): a safe leg with almost no payout, not an edge.",
+    "reasoning": "Biggest efficiency gap on the slate plus unanimous analyst agreement; chosen for hit probability.",
     "why": [
       "Tennessee has scored 37 points in 3 games (0-3); only Miami and New England have scored fewer (Squawka).",
-      "Lamar Jackson is reported healthy, in \"peak condition\" per the Ravens, after going 15/20 with 2 TDs in Week 3 (Ravens.com).",
-      "Baltimore runs for 5.2 yards a carry; Tennessee has already allowed 379 rushing yards (Squawka).",
-      "All 5 NFL.com analysts pick Baltimore; even Covers, taking Tennessee +11.5, expects the Ravens to win."
+      "Offense EPA/play: Baltimore +0.13 (6.7 yards/play) vs Tennessee -0.10 (4.8 yards/play) (Sharp Football, through Week 3).",
+      "Tennessee has allowed 379 rushing yards in 3 games; Baltimore runs for 5.2 yards a carry (Squawka).",
+      "All 5 NFL.com analysts pick Baltimore, by 7 to 16 points."
     ],
-    "breaks": "A Lamar Jackson in-game injury forcing a backup to hold the lead. Two Ravens starters, OT Ronnie Stanley and WR Zay Flowers, are questionable.",
-    "runner_up": "Packers -3.5 (+100): Tampa Bay starts undrafted rookie QB Jalon Daniels, but it's a coin-flip market and Green Bay's interior O-line is banged up.",
+    "breaks": "A Lamar Jackson in-game injury. Baltimore is also missing OLB Trey Hendrickson (out), and OT Ronnie Stanley and WR Zay Flowers are questionable.",
     "sources": [
-      "the-odds-api.com (fetched 2026-10-03)",
+      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
+      "https://www.squawka.com/en/?p=1497935",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
+      "https://www.espn.com/nfl/injuries",
+      "https://www.cbssports.com/nfl/news/nfl-week-4-injury-report-justin-jefferson-aaron-donald-terry-mclaurin/"
+    ],
+    "result": null
+  },
+  {
+    "week": 4,
+    "risk_tier": "safe",
+    "rank": 2,
+    "date": "2026-10-03",
+    "pick": "Buffalo Bills moneyline vs New England Patriots",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-325 (median; -310 best at DraftKings)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: strong current data, but New England has given Buffalo real trouble recently. The price implies about 74% (no-vig).",
+    "reasoning": "Best offense vs one of the worst offenses, and New England is missing its top corner and a starting DT.",
+    "why": [
+      "Buffalo leads the NFL at 33.7 points per game; New England scores 12.0 (CBS Sports).",
+      "Offense EPA/play: Buffalo +0.20 (2nd) vs New England -0.17 (29th) (Sharp Football).",
+      "New England ruled out CB Christian Gonzalez and DT Christian Barmore (Patriots.com, Friday report).",
+      "All 5 NFL.com analysts and CBS's Jordan Dajani (Bills -7 best bet) pick Buffalo."
+    ],
+    "breaks": "Drake Maye (cleared, no designation) protects the ball and keeps it close in a divisional game. New England went 13-4 ATS last season and 9-2 ATS on the road.",
+    "trend": "Patriots are 5-1 ATS vs Buffalo, all as underdogs (6 games, per Yahoo Sports). Small sample \u2014 directional only, not a strong signal. It's an against-the-spread trend, so it says more about a close game than about who wins, and it's widely published, so the line already reflects it.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
+      "https://www.cbssports.com/nfl/news/nfl-week-4-picks-odds-best-bets-chiefs-vegas-lions-panthers/",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-christian-gonzalez-and-christian-barmore-for-sunday-s-week-4-matchup-vs-bills",
+      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
+      "https://sports.yahoo.com/nfl/betting/article/nfl-betting-odds-lines-betting-trends-to-know-for-week-4s-biggest-games-205616693.html"
+    ],
+    "result": null
+  },
+  {
+    "week": 4,
+    "risk_tier": "safe",
+    "rank": 3,
+    "date": "2026-10-03",
+    "pick": "Minnesota Vikings moneyline vs Miami Dolphins",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-610 (median; -520 best at FanDuel)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: Miami is clearly outmatched, but Minnesota's own offense is the league's least efficient by yards/play. The price implies about 83% (no-vig).",
+    "reasoning": "Strong defense vs a winless team that just lost its best offensive player.",
+    "why": [
+      "Miami lost RB De'Von Achane for the season (torn ACL) and is winless, outscored by 14+ in every loss (CBS Sports, NBC Sports).",
+      "Miami's defense allows 6.1 yards/play, among the league's worst; Minnesota allows 4.8 (Sharp Football).",
+      "All 5 NFL.com analysts pick Minnesota, by 9 to 20 points."
+    ],
+    "breaks": "Minnesota's offense (4.3 yards/play, last in the NFL) without Justin Jefferson (out) can't pull away, and one Miami turnover-driven score flips a low-total (38.5) game.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
+      "https://www.cbssports.com/nfl/news/nfl-week-4-picks-odds-best-bets-chiefs-vegas-lions-panthers/",
+      "https://www.nbcsports.com/fantasy/football/news/2026-nfl-week-4-injury-report-achane-acl-baker-thumb-jefferson-ankle-breece-hall-quad-and-more",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
+      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
+      "https://www.vikings.com/news/dolphins-injury-report-week-4-2026-nfl-season"
+    ],
+    "result": null
+  },
+  {
+    "week": 4,
+    "risk_tier": "balanced",
+    "rank": 1,
+    "date": "2026-10-03",
+    "pick": "Detroit Lions -3.5 at Carolina Panthers",
+    "bet_type": "spread",
+    "line": "-3.5",
+    "odds": "-110 (median; -106 best at LowVig.ag)",
+    "confidence": "Medium",
+    "confidence_note": "Medium for a sharp spread market: a reasonable lean backed by injuries and efficiency, not an edge over the book.",
+    "reasoning": "Elite offense vs a Carolina secondary missing its top corners.",
+    "why": [
+      "Detroit offense EPA/play +0.16, 4th in the NFL (Sharp Football).",
+      "Carolina placed CB Jaycee Horn and Mike Jackson on IR; WR Xavier Legette and G Damien Lewis are out (NFL.com, ESPN).",
+      "All 5 NFL.com analysts, CBS Sports (Lions -3.5 best bet) and Covers pick Detroit."
+    ],
+    "breaks": "Detroit's defense is the weak link: it ranks last on Sharp Football's defensive EPA table and is without S Brian Branch (out). A shootout decided by a field goal fails the -3.5.",
+    "trend": "Dan Campbell is 11-0 SU and 9-1-1 ATS in primetime when favored (11 games, per CBS Sports). Small sample \u2014 directional only, not a strong signal. Detroit's primetime record is well known and the public bets the Lions in national games, so the line likely already accounts for it.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
+      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
+      "https://www.espn.com/nfl/injuries",
+      "https://www.cbssports.com/nfl/news/nfl-week-4-picks-odds-best-bets-chiefs-vegas-lions-panthers/",
+      "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026"
+    ],
+    "result": null
+  },
+  {
+    "week": 4,
+    "risk_tier": "balanced",
+    "rank": 2,
+    "date": "2026-10-03",
+    "pick": "Indianapolis Colts -4.5 vs Washington Commanders (London)",
+    "bet_type": "spread",
+    "line": "-4.5",
+    "odds": "-106 (median; -105 best at DraftKings)",
+    "confidence": "Medium",
+    "confidence_note": "Medium for a sharp spread market: the injury news is real, but the line has already moved a full point to reflect it.",
+    "reasoning": "Washington is down its QB, top WR and two other starters on offense.",
+    "why": [
+      "Jayden Daniels is out (Marcus Mariota starts), Terry McLaurin is doubtful, and G Sam Cosmi and RB Rachaad White are out (ESPN, NFL.com).",
+      "4 of 5 NFL.com analysts pick Indianapolis.",
+      "Covers' Commanders +3.5 pick was based on Daniels returning, which is no longer happening (Covers, Oct 1)."
+    ],
+    "breaks": "Indianapolis's offense is no better than Washington's (-0.04 vs -0.05 EPA/play, Sharp Football), Keenan Allen is out, and the line moved from 3.5 to 4.5 after the Daniels news. A neutral London site and a Mariota-led game decided by 3-4 points fails the cover.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
+      "https://www.espn.com/nfl/injuries",
       "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
       "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/"
+    ],
+    "result": null
+  },
+  {
+    "week": 4,
+    "risk_tier": "balanced",
+    "rank": 3,
+    "date": "2026-10-03",
+    "pick": "Green Bay Packers -3.5 at Tampa Bay Buccaneers",
+    "bet_type": "spread",
+    "line": "-3.5",
+    "odds": "+100 (median; +105 best at LowVig.ag)",
+    "confidence": "Low",
+    "confidence_note": "Low: the QB mismatch is real, but this is a coin-flip spread in a game with the slate's lowest total (39.5).",
+    "reasoning": "Tampa Bay starts an undrafted rookie QB with an already-last-ranked offense.",
+    "why": [
+      "Baker Mayfield is out at least 3 weeks; undrafted rookie Jalon Daniels makes his first start after going 0-for-3 with an INT in relief (Buccaneers.com, NBC Sports).",
+      "Tampa Bay has the NFL's worst offense by EPA/play (-0.22), even with Mayfield for most of it (Sharp Football).",
+      "Covers picks Packers -3.5; 3 of 5 NFL.com analysts pick Green Bay."
+    ],
+    "breaks": "Tampa Bay's defense (4.9 yards/play allowed) keeps it low-scoring, and Green Bay's banged-up interior line (C Jacob Monk and G Aaron Banks out, C Jager Burton questionable) stalls drives. A 3-point win fails the cover.",
+    "trend": "Tampa Bay has failed to cover in 12 straight games (per SportsBettingDime). Small sample \u2014 directional only, not a strong signal. Streaks like this get heavy media coverage, so books shade lines toward them; it's also mostly from games Mayfield started, so it says little about this one.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
+      "https://www.buccaneers.com/news/baker-mayfield-three-weeks-minimum-thumb-injury-update",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
+      "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026",
+      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
+      "https://www.espn.com/nfl/injuries"
+    ],
+    "result": null
+  },
+  {
+    "week": 4,
+    "risk_tier": "aggressive",
+    "rank": 1,
+    "date": "2026-10-03",
+    "pick": "Jacksonville Jaguars moneyline at Cincinnati Bengals",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "+120 (median; +135 best at Bovada)",
+    "confidence": "Medium",
+    "confidence_note": "Medium evidence, but an underdog moneyline: the price implies about 43% (no-vig), so this trades win probability for a bigger payout. It isn't a smarter pick.",
+    "reasoning": "Jacksonville grades out better on offense, but it's a road underdog and analysts are split.",
+    "why": [
+      "Offense EPA/play: Jacksonville +0.13 (6th) vs Cincinnati +0.01 (12th) (Sharp Football).",
+      "Jacksonville has held 10 of its last 11 opponents under 21 points (Yahoo Sports).",
+      "3 of 5 NFL.com analysts pick Jacksonville outright."
+    ],
+    "breaks": "Joe Burrow at home. Covers takes Cincinnati -2.5, arguing the Bengals' improved run defense forces Trevor Lawrence into a pass-heavy game. The Bengals are 4-0 SU vs Jacksonville since 2020 (Yahoo Sports).",
+    "trend": "Jacksonville is 10-1 SU and ATS in its last 11 regular-season games (11 games, per Yahoo Sports). Small sample \u2014 directional only, not a strong signal. A run this visible is exactly what books adjust for, which is partly why a team with better efficiency numbers is still only +120.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://sports.yahoo.com/nfl/betting/article/nfl-betting-odds-lines-betting-trends-to-know-for-week-4s-biggest-games-205616693.html",
+      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
+      "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026",
+      "https://www.espn.com/nfl/injuries"
+    ],
+    "result": null
+  },
+  {
+    "week": 4,
+    "risk_tier": "aggressive",
+    "rank": 2,
+    "date": "2026-10-03",
+    "pick": "Las Vegas Raiders moneyline vs Kansas City Chiefs",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "+185 (median; +190 best at Bovada)",
+    "confidence": "Low",
+    "confidence_note": "Low: an underdog moneyline at about 34% implied (no-vig). Big payout, and even the analysts who like the Raiders on the spread expect Kansas City to win.",
+    "reasoning": "3-0 home underdog with a top-5 defense, in a division game Kansas City has struggled to cover lately.",
+    "why": [
+      "Las Vegas is 3-0 SU and ATS for the first time since 2021, with a strong turnover differential (CBS Sports, Yahoo Sports).",
+      "Las Vegas ranks 5th on Sharp Football's defensive EPA table, allowing 5.2 yards/play.",
+      "Kansas City is missing LT Josh Simmons (out) (ESPN)."
+    ],
+    "breaks": "Kansas City is simply better on offense (+0.15 EPA/play vs +0.02) and is 21-5 SU against Las Vegas since 2013 (Yahoo Sports). Covers and CBS both take the Raiders +4.5 but project a Chiefs win (24-21). The Raiders are also without C Jackson Powers-Johnson (out).",
+    "trend": "Kansas City is 21-5 SU vs Las Vegas since 2013 (26 games, per Yahoo Sports), which cuts against this pick. Separately, CBS notes the Chiefs are 0-5 ATS in their last five road division games (small sample \u2014 directional only, not a strong signal). Both are widely published and already reflected in the line.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
+      "https://www.cbssports.com/nfl/news/nfl-week-4-picks-odds-best-bets-chiefs-vegas-lions-panthers/",
+      "https://sports.yahoo.com/nfl/betting/article/nfl-betting-odds-lines-betting-trends-to-know-for-week-4s-biggest-games-205616693.html",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
       "https://www.espn.com/nfl/injuries",
-      "https://www.baltimoreravens.com/news/lamar-jackson-peak-condition-depth-chart-jonathan-taylor-2026-season-news-notes",
+      "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026",
+      "https://www.raiders.com/news/las-vegas-raiders-kansas-city-chiefs-week-4-injury-report-2026-season-nfl"
+    ],
+    "result": null
+  },
+  {
+    "week": 4,
+    "risk_tier": "aggressive",
+    "rank": 3,
+    "date": "2026-10-03",
+    "pick": "Derrick Henry over 97.5 rushing yards vs Tennessee",
+    "bet_type": "player prop",
+    "line": "o97.5",
+    "odds": "-114 (median; best -114 at DraftKings)",
+    "confidence": "Low",
+    "confidence_note": "Low: player props are thin, volatile markets. One game-script change (an early blowout, so Henry rests) swings it, so this isn't the same confidence as a Medium on a spread.",
+    "reasoning": "Heavy-volume back facing a run defense allowing about 126 yards a game.",
+    "why": [
+      "Tennessee has allowed 379 rushing yards in 3 games, about 126 a game (Squawka).",
+      "Henry carried 26 times in Week 3; Baltimore has run 97 times for 502 yards this season (Squawka).",
+      "Baltimore is an 11.5-point favorite, so the expected game script is a lead and lots of runs (Odds API)."
+    ],
+    "breaks": "A blowout so big that Henry sits in the 4th quarter, with Tony Pollard (line 47.5 yards) taking the late carries. Correlated with the Safe #1 Ravens pick: Baltimore winning big helps both until Henry gets pulled.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03 12:16 ET)",
       "https://www.squawka.com/en/?p=1497935"
     ],
     "result": null

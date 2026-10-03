@@ -111,7 +111,9 @@ def summarize_outcomes(event, market_key):
             if market.get("key") != market_key:
                 continue
             for o in market.get("outcomes", []):
-                rows.setdefault(o["name"], []).append((o.get("point"), o["price"], book["title"]))
+                # Player props put the player in "description" and Over/Under/Yes in "name"
+                label = f"{o['description']} {o['name']}" if o.get("description") else o["name"]
+                rows.setdefault(label, []).append((o.get("point"), o["price"], book["title"]))
 
     lines = []
     for name, quotes in rows.items():
