@@ -1,0 +1,21 @@
+[
+  {
+    "week": 4,
+    "date": "2026-10-03",
+    "pick": "Baltimore Ravens moneyline vs Tennessee Titans",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-700 (median; -650 best at DraftKings)",
+    "confidence": "High",
+    "reasoning": "Parlay-leg pick chosen to maximize hit probability: Titans have scored 37 points in 3 games, Lamar Jackson reported healthy, all 5 NFL.com analysts pick BAL. Market already prices ~85% win chance, so this is safety, not an edge.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-03)",
+      "https://www.nfl.com/news/nfl-picks-week-4-2026-nfl-season",
+      "https://www.covers.com/nfl/picks-against-the-spread-week-4-2026",
+      "https://www.espn.com/nfl/injuries",
+      "https://www.baltimoreravens.com/news/lamar-jackson-peak-condition-depth-chart-jonathan-taylor-2026-season-news-notes",
+      "https://www.squawka.com/en/?p=1497935"
+    ],
+    "result": null
+  }
+]

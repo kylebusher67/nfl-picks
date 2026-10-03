@@ -1,0 +1,4 @@
+.env
+.env.save
+odds_latest.json
+.claude/settings.local.json
