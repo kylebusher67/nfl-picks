@@ -110,6 +110,8 @@ def render_pick_card(pick):
     ]
     if pick.get("breaks"):
         parts.append(f'<div class="risk"><h3>What breaks this pick</h3><p>{escape(pick["breaks"])}</p></div>')
+    if pick.get("trend"):
+        parts.append(f'<div class="trend"><h3>Relevant historical trend</h3><p>{escape(pick["trend"])}</p></div>')
     if pick.get("runner_up"):
         parts.append(f'<h3>Runner-up</h3><p>{escape(pick["runner_up"])}</p>')
     if pick.get("sources"):

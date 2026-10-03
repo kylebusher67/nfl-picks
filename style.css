@@ -89,6 +89,9 @@ li + li { margin-top: 0.4rem; }
 .conf-low { color: var(--aggressive); }
 .risk { border-left: 4px solid var(--risk); padding-left: 0.9rem; margin-top: 1rem; }
 .risk h3 { margin-top: 0; }
+.trend { border-left: 4px solid var(--border); padding-left: 0.9rem; margin-top: 1rem; }
+.trend h3 { margin-top: 0; }
+.trend p { color: var(--muted); }
 .sources { margin-top: 1rem; font-size: 0.85rem; color: var(--muted); }
 .result { font-size: 0.75rem; font-weight: 700; padding: 0.1rem 0.5rem; border-radius: 6px; vertical-align: middle; color: #fff; }
 .result-win { background: var(--safe); }

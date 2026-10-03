@@ -37,6 +37,13 @@ Tier rules:
    - Injury reports: official team/NFL injury reports and beat reporters (practice participation, Out/Doubtful/Questionable designations). Note the date of each report.
    - Current-season team stats: efficiency (EPA/play, success rate, DVOA if available), turnover margin, home/away splits, relevant matchup stats.
    - Analyst picks from 2–3 outlets (e.g. ESPN, The Athletic, Action Network). Treat these as context, not evidence of an edge.
+   - Line movement: whether a line has moved since it opened (from line-move reporting in news coverage, with the source cited) and how much books disagree, using the `[books range ...]` in `fetch_odds.py` output.
+   - **Historical ATS situational trends** (supporting context only; see "ATS trend rules" below). Search for trends that actually apply to this week's matchups, for example:
+     - ATS record after a specific start (e.g. teams starting 0-3)
+     - ATS record as a home/road favorite or underdog of a similar size to this week's line
+     - ATS record off a bye or on short rest (only if one of the teams is in that spot this week)
+     - Any other well-established situational trend that genuinely fits a specific matchup
+     If nothing relevant applies, use no trend. Don't search until something turns up just to have one.
 3. **Candidates:** Build 3–5 candidates per requested tier (they can overlap across tiers), spanning different bet types (spread, moneyline, total, and a player prop if one is well supported). Don't default to spreads.
    - For a prop candidate, fetch its line with `python3 fetch_odds.py --event <id> --markets <market>` (e.g. `player_pass_yds`, `player_rush_yds`, `player_reception_yds`, `player_anytime_td`). Each call costs extra API credits, so only fetch props you're seriously considering. If no line is posted, drop the candidate.
 4. **Evaluate each candidate** on:
@@ -44,6 +51,14 @@ Tier rules:
    - Market type: spreads/totals/moneylines are sharp, liquid markets (prices are efficient, hard to beat); player props are thinner and more volatile (one injury, game script, or usage change swings them). **These are not equivalent confidence levels** — say so explicitly when comparing.
    - The single biggest risk that breaks the pick.
    - Parlay context: a leg only helps the group if it hits.
+   - **Evidence weighting, strongest to weakest:** (1) this week's injury reports, (2) current-season efficiency stats, (3) line movement and market agreement, (4) analyst picks and historical ATS trends. A trend can support a pick or add a caution, but **never make a trend the main reason for a pick**, and never let one override what the injury report or efficiency data says.
+### ATS trend rules
+- **Every trend needs a source and a sample size**, stated together: e.g. "13-4 ATS since 2021 (17 games), per [source]". If either one is missing, don't use the trend.
+- **Sample size caveat:** if a trend covers fewer than ~20 games, label it **"small sample — directional only, not a strong signal."** Even 20–50 games is noisy, so present those as context too, not proof.
+- **Assume the line already prices it in.** Well-known situational trends (bye weeks, rest, big favorites, 0-3 teams) are public, and the books and sharp bettors know them. Say explicitly why the trend may already be reflected in the line, and never present it as a hidden edge. A trend that runs against what the current-season data says is usually noise.
+- Be wary of trends that were cherry-picked: odd cutoffs (e.g. "since 2019 on Sundays in October"), stacked conditions, or a source selling picks. The more specific the filter, the less it means.
+- Use the most relevant trend per pick at most, not a list.
+
 5. **Choose ONE pick per requested tier**, plus a runner-up for each.
 6. **Log** each tier as its own entry in `picks_log.json`:
    ```json
@@ -55,6 +70,7 @@ Tier rules:
     "why": ["3-4 bullets, each citing a source or stat"],
     "breaks": "the single most likely failure",
     "runner_up": "alternative + one sentence why",
+    "trend": "OPTIONAL — omit the key entirely if no relevant trend. Trend + sample size + source + small-sample caveat + why it may be priced in",
     "sources": ["https://... or outlet + title"], "result": null}
    ```
    If an entry already exists for that week **and tier**, ask whether to replace it. Other tiers for the week stay untouched.
@@ -65,6 +81,7 @@ Tier rules:
    - **Confidence:** [High/Medium/Low] — what that means given the market type
    - **Why:** 3–4 bullets, each citing a specific source or stat
    - **What breaks this pick:** the single most likely failure
+   - **Relevant historical trend:** [trend + source + sample size + "small sample — directional only, not a strong signal" if under ~20 games + one clause on why it's likely priced in]. **Only include this line if a genuinely relevant trend was found;** otherwise leave the line out entirely (don't write "none").
    - **Runner-up:** one alternative, one sentence why
 
    Then one combined **Sources used** list and the week page link (`https://kylebusher67.github.io/nfl-picks/week-N.html`).
