@@ -265,5 +265,258 @@
       "https://www.cbssports.com/fantasy/football/news/texans-nico-collins-no-limitations-expected-monday/"
     ],
     "result": null
+  },
+  {
+    "week": 5,
+    "risk_tier": "safe",
+    "rank": 1,
+    "date": "2026-10-08",
+    "pick": "Jacksonville Jaguars moneyline vs Philadelphia Eagles (London)",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-370 (median; -345 best at DraftKings)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: current injury and efficiency data all point one way, but -370 implies ~77% and the Eagles still have Jalen Hurts and a decent defense.",
+    "reasoning": "The NFL's 2nd-best offense by EPA against a bottom-five Eagles offense that is missing its top two running backs and possibly DeVonta Smith.",
+    "why": [
+      "Saquon Barkley (hamstring) and DeVonta Smith (hamstring) did not practice Wednesday; Tank Bigsby is on IR after core surgery (Yahoo Sports, Oct 7).",
+      "Jaguars offense ranks 2nd in EPA/play and 4th in success rate; Eagles offense is 28th in EPA/play and 30th in success rate (SI, Oct 5).",
+      "Jalen Hurts has 246 passing yards over his last two games combined, including 12-of-27 for 93 yards in Week 4 (SI). That's a role/health-driven decline (no Barkley for the run game), not one bad game.",
+      "Line moved from JAX -3.5 to -7.5 as the Eagles' injuries piled up (RotoWire; Odds API). Most of this is priced in; the pick is that the Jaguars win, not that the price is soft."
+    ],
+    "breaks": "Barkley or Smith suits up and the Eagles' defense keeps a neutral-site game low-scoring and close.",
+    "trend": "Jaguars are 9-2 ATS as favorites under Liam Coen (11 games, per SI). Small sample, so directional only and not a strong signal. It's a spread trend, widely published, and the line already reflects it.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-08 10:32 ET)",
+      "https://sports.yahoo.com/articles/2026-nfl-week-5-injury-202606270.html",
+      "https://www.si.com/betting/eagles-vs-jaguars-prediction-odds-spread-injuries-trends-for-nfl-week-5-2026",
+      "https://www.rotowire.com/football/article/nfl-week-5-odds-biggest-line-moves-betting-splits-and-key-injuries-139246"
+    ],
+    "result": null
+  },
+  {
+    "week": 5,
+    "risk_tier": "safe",
+    "rank": 2,
+    "date": "2026-10-08",
+    "pick": "Cincinnati Bengals moneyline at Miami Dolphins",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-320 (median; -300 best at FanDuel)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: Miami is the worst scoring team in the league, but Ja'Marr Chase and Tee Higgins are both unresolved. The price implies ~75%.",
+    "reasoning": "Miami scores 11.5 points a game (32nd) and lost De'Von Achane for the season; Cincinnati should win even without its top receivers.",
+    "why": [
+      "Miami averages 11.5 points per game (32nd) and 5.1 yards per play; Cincinnati scores 24.3 per game (Sharp Football worksheet).",
+      "De'Von Achane tore his ACL and is out for the season (Yahoo Sports, Oct 7). Miami's backfield loses its only explosive weapon, a role change that hurts its offense.",
+      "Miami's defense ranks bottom-six in EPA/play allowed (Sharp Football); Malik Willis has run only 6 times and Miami throws 7.7% below expected pass rate (31st), so it can't easily keep pace.",
+      "Line has barely moved (CIN -6.5 to -7) despite the Chase/Higgins news (RotoWire), suggesting the market already expects them out."
+    ],
+    "breaks": "Chase (concussion protocol) and Higgins (adductor, DNP Wednesday) both sit and Joe Burrow has nobody to throw to, as in Cincinnati's two straight losses.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-08 10:32 ET)",
+      "https://sports.yahoo.com/articles/2026-nfl-week-5-injury-202606270.html",
+      "https://www.sharpfootballanalysis.com/fantasy/bengals-dolphins-week-5-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/",
+      "https://www.rotowire.com/football/article/nfl-week-5-odds-biggest-line-moves-betting-splits-and-key-injuries-139246"
+    ],
+    "result": null
+  },
+  {
+    "week": 5,
+    "risk_tier": "safe",
+    "rank": 3,
+    "date": "2026-10-08",
+    "pick": "Houston Texans moneyline at Tennessee Titans",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-385 (median; -370 best at FanDuel)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: Tennessee's offense is one of the league's worst, but Houston is also 0-4 and allows 27.3 points per game. -385 implies ~78%.",
+    "reasoning": "Two 0-4 teams, but Tennessee's offense is far worse than Houston's, and Houston's passing game just woke up with Nico Collins back.",
+    "why": [
+      "Tennessee scores 13.8 points per game (31st), has trailed on 83.3% of its offensive snaps, and scores on just 26.3% of possessions (Sharp Football worksheet).",
+      "Titans guards Fernando Carmona Jr. and Jackson Slater went on IR before Week 4 (Yardbarker), facing a Houston pass rush.",
+      "C.J. Stroud with Nico Collins on the field: 65.6% completions and 7.8 Y/A vs 60.3% and 7.0 without him (Sharp). Collins is practicing, so this is role-driven, and Stroud threw for 347 yards in Week 4.",
+      "Prediction markets and models put Houston at 72-77% (Covers, Dimers), roughly matching the price."
+    ],
+    "breaks": "Houston's defense (27.3 points allowed per game, 26th) lets Cam Ward hang around in a divisional road game and Houston's 0-4 form continues.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-08 10:32 ET)",
+      "https://www.sharpfootballanalysis.com/fantasy/texans-titans-week-5-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/",
+      "https://www.covers.com/nfl/texans-vs-titans-prediction-picks-odds-early-leans-week-5-2026",
+      "https://www.yardbarker.com/nfl/articles/tennessee_titans_qb_cam_ward_about_to_face_a_major_test_behind_a_weakened_line/s1_17615_44370992"
+    ],
+    "result": null
+  },
+  {
+    "week": 5,
+    "risk_tier": "balanced",
+    "rank": 1,
+    "date": "2026-10-08",
+    "pick": "Chicago Bears -1.5 at Green Bay Packers",
+    "bet_type": "spread",
+    "line": "-1.5",
+    "odds": "-115 (median; -110 best at LowVig.ag)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: a liquid, efficient market and the run-game mismatch is clear, but Chicago is on its backup QB.",
+    "reasoning": "The NFL's best rushing team against the league's worst rushing offense; Chicago only needs to win by 2.",
+    "why": [
+      "Chicago leads the NFL at 196.2 rushing yards per game and allows 16.2 points per game; Green Bay is dead last at 58 rushing yards per game (NBC Sports, Oct 5).",
+      "Josh Jacobs is on the commissioner exempt list and Jayden Reed is out for the season (Yahoo Sports, Oct 7). That's a role-driven collapse of Green Bay's run game, not a cold streak.",
+      "Chicago is 3-1 and won its last two with backup QBs (Bleacher Nation).",
+      "Line flipped from GB -2.5 to CHI -3 (RotoWire), and has come back to CHI -1.5 (Odds API, books -2 to -1). The late move back toward Green Bay makes the current number fairer, not a bargain."
+    ],
+    "breaks": "Tyson Bagent (322 yards, 0 TD, 1 INT in 3 games, per NBC) can't move the ball through the air, and Jordan Love (8 TD) wins a shootout at Lambeau.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-08 10:32 ET)",
+      "https://www.nbcsports.com/nfl/news/bears-vs-packers-prediction-odds-expert-picks-qb-matchup-injury-update-betting-trends-and-stats",
+      "https://sports.yahoo.com/articles/2026-nfl-week-5-injury-202606270.html",
+      "https://www.bleachernation.com/bears/2026/10/05/bears-packers-odds-wk-5/",
+      "https://www.rotowire.com/football/article/nfl-week-5-odds-biggest-line-moves-betting-splits-and-key-injuries-139246"
+    ],
+    "result": null
+  },
+  {
+    "week": 5,
+    "risk_tier": "balanced",
+    "rank": 2,
+    "date": "2026-10-08",
+    "pick": "Denver Broncos -3.5 at Los Angeles Chargers",
+    "bet_type": "spread",
+    "line": "-3.5",
+    "odds": "-102 (median; +105 best at LowVig.ag)",
+    "confidence": "Low",
+    "confidence_note": "Low: the Chargers' line injuries are real, but Denver's offense is poor too and Patrick Surtain is out. Needs a 4-point win.",
+    "reasoning": "The Chargers are 0-4 and playing without both starting tackles; Herbert was already under pressure on almost half his dropbacks.",
+    "why": [
+      "LT Rashawn Slater is out 4-6 weeks (high-ankle sprain) and RT Joe Alt (neck) is expected to miss Week 5 (Bettors Insider; NBC Sports, Oct 7).",
+      "Justin Herbert has been pressured on 46.5% of dropbacks, 2nd-worst in the league, before losing both tackles (Sharp Football worksheet).",
+      "Chargers offense is bottom-five in EPA/play (-0.13) and has scored 14 or fewer in 3 of 4 games (Sharp; FanDuel Research). Ladd McConkey (foot) didn't practice Wednesday and David Njoku is on IR.",
+      "Line moved six points, from LAC -2.5 to DEN -3.5 (RotoWire). Most of the injury news is priced in."
+    ],
+    "breaks": "Bo Nix (6.1 Y/A, 23rd) can't build a margin, Surtain's absence opens up the Chargers' passing game, and Denver wins by 3 or less.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-08 10:32 ET)",
+      "https://www.sharpfootballanalysis.com/fantasy/broncos-chargers-week-5-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/",
+      "https://bettorsinsider.com/nfl/2026/10/07/rashawn-slater-high-ankle-sprain-puts-chargers-o-line-betting-markets-in-freefall-at-0-4/",
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-07/report-joe-alt-neck-to-miss-week-5",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-offensive-stats/",
+      "https://www.rotowire.com/football/article/nfl-week-5-odds-biggest-line-moves-betting-splits-and-key-injuries-139246"
+    ],
+    "result": null
+  },
+  {
+    "week": 5,
+    "risk_tier": "balanced",
+    "rank": 3,
+    "date": "2026-10-08",
+    "pick": "Texans @ Titans Under 38",
+    "bet_type": "total",
+    "line": "Under 38",
+    "odds": "-105 (median; -104 best at LowVig.ag)",
+    "confidence": "Low",
+    "confidence_note": "Low: Tennessee's offense supports it, but Houston's defense allows 27.3 per game and the total has already dropped.",
+    "reasoning": "Tennessee can barely score and Houston's implied total is only about 22.",
+    "why": [
+      "Tennessee scores 13.8 per game (31st) and on 26.3% of possessions; implied totals are Houston 22.5, Tennessee 16.0 (Sharp Football worksheet).",
+      "Tennessee is down two starting guards (IR), weakening an offense already 25th in yards per play (Yardbarker; Sharp).",
+      "Covers leans Under 39.5, noting Tennessee may struggle to push it over even if Houston reaches the low-to-mid 20s.",
+      "Total has dropped from 39.5 (Covers, Oct 5) to 38 (Odds API), so part of this is priced in."
+    ],
+    "breaks": "Houston's leaky defense (27.3 points allowed, 26th) gives up a couple of long drives and Stroud's passing game pushes it to 21-17.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-08 10:32 ET)",
+      "https://www.sharpfootballanalysis.com/fantasy/texans-titans-week-5-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/",
+      "https://www.covers.com/nfl/texans-vs-titans-prediction-picks-odds-early-leans-week-5-2026"
+    ],
+    "result": null
+  },
+  {
+    "week": 5,
+    "risk_tier": "aggressive",
+    "rank": 1,
+    "date": "2026-10-08",
+    "pick": "Cleveland Browns moneyline at New York Jets",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "+110 (median; +115 best at Bovada)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: near coin-flip game in a sharp market. The price needs ~48% to break even; multiple sources lean Cleveland but this is no lock.",
+    "reasoning": "The 3-1 Browns get plus money against a 1-3 Jets offense that ranks last in passing and is missing Breece Hall and Adonai Mitchell.",
+    "why": [
+      "Jets rank 32nd in passing yards and 32nd in yards per attempt, and ran just 32 offensive plays against Chicago (NBC Sports, Oct 6).",
+      "Breece Hall (quad), Adonai Mitchell (finger) and LG Dylan Parham (knee) all missed Wednesday practice (Jets.com). Braelon Allen took 100% of RB carries in Week 4 for 59 yards on 14 (FFToday), a role change that weakens the run game.",
+      "Deshaun Watson: 101.2 rating, 6 TD, 2 INT, with three straight game-winning fourth-quarter drives (NBC Sports).",
+      "SI (Browns +110), NBC (lean Browns +2.5) and Covers (Browns +2.5) all lean Cleveland. That's context, not an edge."
+    ],
+    "breaks": "Cleveland's banged-up lines (Teven Jenkins and DTs Mason Graham and Mike Hall Jr. all DNP Wednesday) lose the trenches and the Jets win a low-scoring game.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-08 10:32 ET)",
+      "https://www.nbcsports.com/nfl/news/browns-vs-jets-prediction-odds-expert-picks-qb-matchup-injury-update-betting-trends-and-stats",
+      "https://www.newyorkjets.com/news/jets-injury-report-week-5-vs-browns-wednesday-10-07-2026",
+      "https://www.fftoday.com/articles/krueger/26-usage-notes-wk4.html",
+      "https://www.si.com/betting/browns-vs-jets-prediction-odds-spread-injuries-trends-for-nfl-week-5-01m46x1xee7z",
+      "https://www.covers.com/nfl/picks-and-predictions-week-5-2026"
+    ],
+    "result": null
+  },
+  {
+    "week": 5,
+    "risk_tier": "aggressive",
+    "rank": 2,
+    "date": "2026-10-08",
+    "pick": "New York Giants moneyline at Washington Commanders",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "+163 (median; +170 best at Bovada)",
+    "confidence": "Low",
+    "confidence_note": "Low: Washington's receiver injuries are real, but Jameis Winston is a volatile replacement starter and Malik Nabers is questionable. Needs ~38% to break even.",
+    "reasoning": "The 3-1 Giants catch Washington without its top two receivers and with Jayden Daniels returning from a dislocated elbow.",
+    "why": [
+      "Terry McLaurin (hamstring) and Stefon Diggs (hamstring) are expected out, and Jaylin Lane is done for the season (Yahoo Sports, Oct 7). That's a role-driven hit to Washington's passing game.",
+      "Jayden Daniels practiced fully but is coming back from a dislocated elbow; Marcus Mariota (MCL) is out, so there's no healthy backup (Yahoo Sports).",
+      "Giants are 3-1; Winston threw 3 TD and 2 INT in his first start after Jaxson Dart's season-ending knee injury (FanDuel Research; ESPN).",
+      "Covers takes Giants +3.5; Dimers' model projects a 2-point game (22-20 Washington)."
+    ],
+    "breaks": "Winston's turnovers (2 INT last week) hand Washington short fields, and Nabers (DNP Wednesday) and LT Andrew Thomas (DNP) sit.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-08 10:32 ET)",
+      "https://sports.yahoo.com/articles/2026-nfl-week-5-injury-202606270.html",
+      "https://giants.com/news/giants-vs-commanders-week-5-injury-report-malik-nabers-andrew-thomas-cam-skattebo",
+      "https://www.covers.com/nfl/giants-vs-commanders-prediction-picks-odds-early-leans-week-5-2026",
+      "https://www.dimers.com/nfl/news/new-york-giants-vs-washington-commanders-early-prediction-nfl-week-5-2026-ac",
+      "https://www.fanduel.com/research/commanders-vs-giants-predictions-odds-picks-best-bets-for-nfl-week-5-2026"
+    ],
+    "result": null
+  },
+  {
+    "week": 5,
+    "risk_tier": "aggressive",
+    "rank": 3,
+    "date": "2026-10-08",
+    "pick": "Baltimore Ravens moneyline at Atlanta Falcons",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "+150 (median; +152 best at BetOnline.ag)",
+    "confidence": "Low",
+    "confidence_note": "Low: this is a bet on Lamar Jackson's ankle. If he's ruled out, the price is roughly fair and the pick has no edge. Needs 40% to break even.",
+    "reasoning": "The line assumes Lamar Jackson won't play. If he does, Baltimore at +150 is mispriced; if he doesn't, it's a Tyler Huntley road start.",
+    "why": [
+      "Adam Schefter reports a 'realistic' chance Jackson plays; Ian Rapoport says 'outside chance.' He did not practice Wednesday (SI, Oct 7; NBC Sports).",
+      "The line swung about 9 points, from BAL -6 lookahead to ATL -3.5 (RotoWire; SI). Fanatics' Ty Gour values Jackson at about 5 points and says books assume he's out.",
+      "Jackson's 2026 line: 70.8% completions, 967 yards, 6 TD, 1 INT, plus 144 rushing yards (SI).",
+      "Against: Atlanta's defense is top-seven in EPA/play (Sharp Football) and Baltimore's WRs Zay Flowers and Rashod Bateman were limited Wednesday (Yahoo Sports)."
+    ],
+    "breaks": "Jackson is ruled out and Huntley (8-of-9 for 63 yards in relief, no second-half points) can't move the ball on the road. Check his status before locking this in; it's Sunday night.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-08 10:32 ET)",
+      "https://www.si.com/betting/positive-lamar-jackson-injury-update-doesnt-alter-ravens-vs-falcons-odds-in-week-5",
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-06/lamar-has-outside-chance-to-play-week-5",
+      "https://www.rotowire.com/football/article/nfl-week-5-odds-biggest-line-moves-betting-splits-and-key-injuries-139246",
+      "https://sports.yahoo.com/articles/2026-nfl-week-5-injury-202606270.html",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/"
+    ],
+    "result": null
   }
 ]

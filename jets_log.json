@@ -30,5 +30,32 @@
       "https://betiq.teamrankings.com/nfl/betting-trends/spread-ats-records-as-away-underdog/"
     ],
     "result": null
+  },
+  {
+    "week": 5,
+    "date": "2026-10-08",
+    "game": "Cleveland Browns @ New York Jets (Sun 1:00 PM ET)",
+    "spread": "Jets -1.5",
+    "odds": "-115 (median; -110 best at MyBookie.ag)",
+    "rating": "Why did he pick that?",
+    "why": "The Jets only need to win by 2 at home, so this isn't absurd, and the Jets' defense has been respectable (5.0 yards per play allowed). But the offense is last in the league in passing, Breece Hall and Adonai Mitchell are still out, and Cleveland arrives 3-1 with three straight fourth-quarter comebacks. More is working against the Jets than for them.",
+    "evidence": [
+      "Injuries: Breece Hall (quad), Adonai Mitchell (finger), LG Dylan Parham (knee) and CB Jarvis Brownlee (concussion) all DNP Wednesday; TE Mason Taylor full participant. Browns DTs Mason Graham and Mike Hall Jr. and G Teven Jenkins DNP (Jets.com, Oct 7).",
+      "Player usage: Braelon Allen took 100% of RB carries in Week 4 (14 for 59) with Hall out, a role-driven drop in explosiveness. Garrett Wilson had only 4 targets (26.7% share) for 27 yards because the Jets ran just 32 plays (FFToday; NBC Sports). That's low volume, not a role change.",
+      "Efficiency: Jets are 32nd in passing yards and yards per attempt (NBC Sports). Geno Smith has 0 INT and a 109.0 rating but has been sacked 12 times.",
+      "Line movement: sources disagree. RotoWire has it opening NYJ -2.5 and moving to -1.5, NBC has -2 to -2.5. Books now sit at -1 to -2.5 (Odds API). No clear signal.",
+      "Analysts: SI (Browns +110), NBC (lean Browns +2.5), Covers and DraftKings' expert picks (Browns +2.5) all go against the Jets."
+    ],
+    "sources": [
+      "the-odds-api.com (fetched 2026-10-08 10:32 ET)",
+      "https://www.newyorkjets.com/news/jets-injury-report-week-5-vs-browns-wednesday-10-07-2026",
+      "https://www.nbcsports.com/nfl/news/browns-vs-jets-prediction-odds-expert-picks-qb-matchup-injury-update-betting-trends-and-stats",
+      "https://www.fftoday.com/articles/krueger/26-usage-notes-wk4.html",
+      "https://www.rotowire.com/football/article/nfl-week-5-odds-biggest-line-moves-betting-splits-and-key-injuries-139246",
+      "https://www.si.com/betting/browns-vs-jets-prediction-odds-spread-injuries-trends-for-nfl-week-5-01m46x1xee7z",
+      "https://www.covers.com/nfl/picks-and-predictions-week-5-2026",
+      "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/"
+    ],
+    "result": null
   }
 ]
