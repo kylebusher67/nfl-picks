@@ -518,5 +518,210 @@
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/"
     ],
     "result": null
+  },
+  {
+    "week": 8,
+    "date": "2026-11-01",
+    "result": null,
+    "risk_tier": "safe",
+    "rank": 1,
+    "pick": "Los Angeles Rams moneyline vs Los Angeles Chargers",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-310 (median; -285 best at DraftKings)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: injuries and efficiency data both point the same way, but -310 implies about 76% and the Rams are only 3-4, so this is a likely leg, not a lock.",
+    "reasoning": "The league's worst offense by EPA, missing two starting tackles, goes on the road against a Rams team that has its WR1 back. The Rams only have to win, not cover.",
+    "why": [
+      "The Chargers (0-6) rank last in offensive EPA/play and 30th in success rate. Justin Herbert is last among QBs in adjusted EPA/play (SI, Oct 27).",
+      "Their offensive line is depleted: tackles Rashawn Slater and Joe Alt have both missed time, four rookies have played on the line, and Herbert has been sacked 21 times, second-most in the NFL (Fox Sports; TSN). G Kayode Awosika is Out (Chargers.com, Oct 30).",
+      "Chargers S Derwin James, WR Brenen Thompson and DB Deane Leonard are Out. The Rams' only notable questionable player is CB Trent McDuffie (NFL.com final injury report).",
+      "The line moved from LAR -3.5 at open to -6.5 now, with about 69% of tickets on the Rams (RotoWire; Odds API). The market already agrees, so the price isn't soft. The pick is simply that the Rams win."
+    ],
+    "breaks": "The Chargers come off their bye with a simplified offense (Harbaugh said they were 'considering everything'), the Rams turn it over, and a mistake-prone 3-4 Rams team loses a one-score game.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-01 14:31 ET)",
+      "https://www.si.com/betting/chargers-vs-rams-prediction-odds-spread-injuries-trends-for-nfl-week-8-2026",
+      "https://www.chargers.com/news/chargers-vs-rams-injury-report-mcconkey-full-james-awosika-don-t-practice-wednesday",
+      "https://www.foxsports.com/articles/nfl/chargers-season-at-risk-as-injuries-turn-offensive-line-from-strength-to-weakness",
+      "https://www.tsn.ca/nfl/article/harbaugh-says-0-6-chargers-considering-everything-during-the-bye-week/",
+      "https://www.rotowire.com/football/article/nfl-week-8-odds-biggest-line-moves-betting-splits-and-key-injuries-144292",
+      "https://www.nfl.com/news/nfl-week-8-injury-report-2026-season"
+    ]
+  },
+  {
+    "week": 8,
+    "date": "2026-11-01",
+    "result": null,
+    "risk_tier": "safe",
+    "rank": 2,
+    "pick": "New England Patriots moneyline at Miami Dolphins",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-360 (median; -345 best at DraftKings)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: the passing-efficiency edge is large and well sourced, but two Saturday downgrades and a thunderstorm forecast add variance. -360 implies about 78%.",
+    "reasoning": "A top-five passing offense against the defense allowing the league's worst opposing passer rating. That still holds without A.J. Brown, though by a smaller margin.",
+    "why": [
+      "Drake Maye ranks 6th in adjusted EPA/play and 5th in CPOE. New England's pass offense is 5th in dropback EPA and 2nd in dropback success rate (SI, Oct 27).",
+      "Miami (1-5) allows a 116.8 opposing passer rating, the worst in the NFL (Squawka preview). The Dolphins are also without RB De'Von Achane (IR) and OL Kadyn Proctor (Out) (Patriots.com injury report, Oct 31).",
+      "Against: WR A.J. Brown (ankle/knee), RB TreVeyon Henderson (illness) and T Marcus Bryant were all downgraded to Out on Saturday (ESPN; Patriots.com). Maye was a full participant all week.",
+      "After the downgrades the spread slipped from -7.5 to -7 and the total fell from 44.5 to 41 (SI vs Odds API). The market has already marked New England down, and it still prices them as clear favorites."
+    ],
+    "breaks": "Without Brown and Henderson, the offense stalls in thunderstorms (77\u00b0F, storms forecast per Yahoo) and Malik Willis steals a low-scoring division game.",
+    "trend": "New England is 3-10 straight-up and ATS in its last 13 visits to South Florida (13 games, per Covers). Small sample, so directional only and not a strong signal. It spans several different Patriots and Dolphins rosters and is widely published. It's a caution, not a reason to fade.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-01 14:31 ET)",
+      "https://www.si.com/betting/patriots-vs-dolphins-prediction-odds-spread-injuries-trends-for-nfl-week-8-2026",
+      "https://www.patriots.com/news/week-8-injury-report-patriots-at-dolphins-x9227",
+      "https://www.espn.com/nfl/story/_/id/50337296/patriots-rule-aj-brown-treveyon-henderson-vs-dolphins",
+      "https://www.squawka.com/en/?p=1510275",
+      "https://www.covers.com/nfl/patriots-vs-dolphins-prediction-picks-odds-early-leans-week-8-2026",
+      "https://sports.yahoo.com/articles/patriots-vs-dolphins-week-8-163000107.html"
+    ]
+  },
+  {
+    "week": 8,
+    "date": "2026-11-01",
+    "result": null,
+    "risk_tier": "safe",
+    "rank": 3,
+    "pick": "Washington Commanders moneyline vs Philadelphia Eagles (SNF)",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-260 (median; -250 best at BetUS)",
+    "confidence": "Low",
+    "confidence_note": "Low: the Eagles' injuries are severe, but Washington is 1-4-1, its interior D-line is gutted, and Saquon Barkley is likely to play. Treat it as the weakest of the three Safe picks.",
+    "reasoning": "Philadelphia is down to a backup QB and its top three healthy-week receivers are Out. Washington has a healthy Jayden Daniels at home.",
+    "why": [
+      "Jalen Hurts is on IR (calf/blood clot) and Tanner McKee starts. In his Week 6 start he went 26-of-45 for 215 yards in a 25-14 loss to Carolina (Stacked Fantasy; Fantasy Footballers).",
+      "Eagles WRs DeVonta Smith, Dontayvion Wicks and Britain Covey are all Out, along with CBs Jonathan Jones and Jakorian Bennett (NFL.com final injury report; Eagles.com, Oct 30).",
+      "Jayden Daniels (left elbow) was a full participant all week (Commanders.com, Oct 28). The line flipped from PHI -2.5 at open to WAS -5.5/-6 once Hurts went on IR (RotoWire; Odds API).",
+      "Against: Washington's DTs Daron Payne, Javon Kinlaw and Jer'Zhan Newton are all Out, and its run defense was already 31st in opponent rush success rate (SI). Barkley was limited Friday and is 'set to be available' (Eagles.com)."
+    ],
+    "breaks": "Barkley runs through a Washington front missing all three starting DTs, the Eagles shorten the game, and a 1-4-1 team loses another close one.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-01 14:31 ET)",
+      "https://www.si.com/betting/eagles-vs-commanders-prediction-odds-spread-injuries-trends-for-nfl-week-8-01m5zknjrzj7",
+      "https://www.nfl.com/news/nfl-week-8-injury-report-2026-season",
+      "https://www.philadelphiaeagles.com/news/eagles-at-commanders-injury-report-2026-nfl-week-8-sunday-night-football-saquon-barkley-devonta-smith",
+      "https://www.commanders.com/news/commanders-vs-eagles-week-8-injury-report-2026",
+      "https://www.stackedfantasy.com/nfl/news/insights/1270712",
+      "https://www.rotowire.com/football/article/nfl-week-8-odds-biggest-line-moves-betting-splits-and-key-injuries-144292"
+    ]
+  },
+  {
+    "week": 8,
+    "date": "2026-11-01",
+    "result": null,
+    "risk_tier": "balanced",
+    "rank": 1,
+    "pick": "Kansas City Chiefs moneyline at Denver Broncos",
+    "bet_type": "moneyline",
+    "line": "ML (spread is pick'em)",
+    "odds": "-112 (median; -102 best at MyBookie.ag)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: the efficiency gap favors KC on both lines of scrimmage, but this is a near coin-flip market and the line has moved toward Denver.",
+    "reasoning": "A top-five defense and a top-three run game face a Denver offense ranked 23rd in EPA/play, and Denver's run defense ranks 27th.",
+    "why": [
+      "Chiefs defense ranks 5th in opponent EPA/play and success rate, and the offense is top-three in every rushing metric. Denver's offense is 23rd in EPA/play and 29th in success rate, and its run defense is 27th in opponent rush EPA (SI, Oct 27).",
+      "Patrick Mahomes (knee) was full all week, and Rashee Rice returns after missing two games (Arrowhead Pride; NFL.com). Denver has RB RJ Harvey (IR) and S Talanoa Hufanga Out, with WR Jaylen Waddle, T Garett Bolles and DL Zach Allen Questionable (NFL.com).",
+      "Against: KC's CBs Mansoor Delane and L'Jarius Sneed are both Out (NFL.com), which opens a path for Bo Nix.",
+      "The line moved from DEN -1.5 at open to KC -1.5 (RotoWire, SI) and is now back to pick'em (Odds API), so the market is split. Kalshi had it about 52/49 KC (Covers)."
+    ],
+    "breaks": "Denver exploits KC's two missing corners and wins a low-scoring home divisional game. The Broncos are 5-2 ATS this year.",
+    "trend": "The Broncos are 7-3 ATS in the last 10 meetings (10 games, per SI). Small sample, so directional only and not a strong signal. It covers several different rosters and is public, so the line likely reflects it. It runs against this pick and adds caution.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-01 14:31 ET)",
+      "https://www.si.com/betting/chiefs-vs-broncos-prediction-odds-spread-injuries-trends-for-nfl-week-8-2026",
+      "https://www.arrowheadpride.com/kansas-city-chiefs-injuries/214616/chiefs-broncos-week-8-final-injury-report-rashee-rice-returning",
+      "https://www.nfl.com/news/nfl-week-8-injury-report-2026-season",
+      "https://www.rotowire.com/football/article/nfl-week-8-odds-biggest-line-moves-betting-splits-and-key-injuries-144292",
+      "https://www.covers.com/nfl/chiefs-vs-broncos-prediction-picks-odds-early-leans-week-8-2026"
+    ]
+  },
+  {
+    "week": 8,
+    "date": "2026-11-01",
+    "result": null,
+    "risk_tier": "balanced",
+    "rank": 2,
+    "pick": "Chicago Bears @ Seattle Seahawks Under 46.5 (MNF)",
+    "bet_type": "total",
+    "line": "Under 46.5",
+    "odds": "-110 (median; -107 best at LowVig.ag)",
+    "confidence": "Low",
+    "confidence_note": "Low: the defensive and injury case is real, but the Bears scored 30+ in all three of Caleb Williams' full starts, and it's a Monday game, so status news can still change.",
+    "reasoning": "Seattle's elite defense and below-average offense, now missing its left tackle and a top WR, point toward a slower game than a 46.5 total implies.",
+    "why": [
+      "Seattle has the No. 2 defense in EPA/play and is No. 1 in opponent yards per play. Its offense is 24th in EPA/play at 3.9 yards per carry (SI, Oct 28).",
+      "Seahawks LT Charles Cross (ankle) and WR Rashid Shaheed (knee) are Out. Bears RB Kyle Monangai (thumb/toe) is Out too (NFL.com final injury report).",
+      "The Under is 4-3 in both teams' games this season (SI). The total opened 47.5 and has dipped to 46.5 (RotoWire; Odds API). Covers' writer also leans Under.",
+      "Against: Chicago allows the most yards per play in the NFL, and the Bears put up 59, 31 and 30 in Williams' three full starts (SI)."
+    ],
+    "breaks": "Caleb Williams keeps up his 300-yard pace against Chicago's leaky defense, and Darnold's turnovers (8 INTs) hand out short fields, turning it into a shootout.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-01 14:31 ET)",
+      "https://www.si.com/betting/bears-vs-seahawks-prediction-odds-spread-injuries-trends-for-nfl-week-8-2026",
+      "https://www.nfl.com/news/nfl-week-8-injury-report-2026-season",
+      "https://www.rotowire.com/football/article/nfl-week-8-odds-biggest-line-moves-betting-splits-and-key-injuries-144292",
+      "https://www.covers.com/nfl/bears-vs-seahawks-prediction-picks-odds-early-leans-week-8-2026"
+    ]
+  },
+  {
+    "week": 8,
+    "date": "2026-11-01",
+    "result": null,
+    "risk_tier": "aggressive",
+    "rank": 1,
+    "pick": "Chicago Bears moneyline at Seattle Seahawks (MNF)",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "+146 (median; +150 best at BetMGM)",
+    "confidence": "Low",
+    "confidence_note": "Low: there's a real case, but a road underdog against the No. 2 defense in EPA wins well under half the time. +146 needs about 41% to break even.",
+    "reasoning": "The Bears are 5-2 with Caleb Williams healthy, while Seattle's offense is below average and missing its LT and a starting WR. This trades win probability for payout.",
+    "why": [
+      "Williams is back from his hamstring injury, has topped 300 passing yards two straight games, and the Bears covered all three games he started and finished (SI, Oct 28). That's a role-driven change: the starting QB returned.",
+      "Seattle's offense is 24th in EPA/play, Sam Darnold has 8 INTs, and Chicago has forced 10 turnovers (SI). LT Charles Cross and WR Rashid Shaheed are Out (NFL.com).",
+      "The spread moved from SEA -4.5 at open to -3, with about 61% of tickets on Chicago (RotoWire). SI's Peter Dewey takes the Bears +3.",
+      "Against: Seattle's defense is No. 2 in EPA/play, and the Bears are without RB Kyle Monangai (NFL.com)."
+    ],
+    "breaks": "Seattle's top-two defense holds Chicago in check without Monangai, and the Bears' league-worst yards-per-play defense gets exposed at Lumen Field.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-01 14:31 ET)",
+      "https://www.si.com/betting/bears-vs-seahawks-prediction-odds-spread-injuries-trends-for-nfl-week-8-2026",
+      "https://www.nfl.com/news/nfl-week-8-injury-report-2026-season",
+      "https://www.rotowire.com/football/article/nfl-week-8-odds-biggest-line-moves-betting-splits-and-key-injuries-144292"
+    ]
+  },
+  {
+    "week": 8,
+    "date": "2026-11-01",
+    "result": null,
+    "risk_tier": "aggressive",
+    "rank": 2,
+    "pick": "Puka Nacua anytime touchdown vs Los Angeles Chargers",
+    "bet_type": "player prop",
+    "line": "Anytime TD",
+    "odds": "-120 (median; -118 best at BetRivers)",
+    "confidence": "Low",
+    "confidence_note": "Low: TD props are high-variance, and this one is priced about 55%. Prop markets are thinner and less reliable than the sides and totals above.",
+    "reasoning": "With Davante Adams on IR, the Rams' red-zone and end-zone targets have to go somewhere, and Nacua is the clear WR1 against a Chargers secondary missing Derwin James.",
+    "why": [
+      "Davante Adams (hamstring) is on IR for at least six weeks. When both were healthy, Adams out-targeted Nacua 31-10 in the red zone and 28-4 in the end zone (STACKED analysis). That's a role-driven shift, not variance.",
+      "In his first game without Adams (Week 7), Nacua caught 8 of 10 targets for 68 yards and a TD and led the Rams in targets (Fantasy Footballers). It's a one-game sample.",
+      "The Chargers' S Derwin James and DB Deane Leonard are Out, and CBs Donte Jackson and Rodney Shelley are Questionable (Chargers.com; NFL.com). The Rams are 6.5-point favorites, which implies plenty of scoring trips.",
+      "Priced in? Mostly. At -120 he's the Rams' second-shortest scorer behind Kyren Williams (-137) (Odds API). Books have noticed his role, so this is a role bet at a fair price, not a hidden edge. His receiving-yards line of 93.5 roughly matches his season average, so we passed on it."
+    ],
+    "breaks": "The Rams score on the ground through Kyren Williams or Blake Corum, or tight ends take the goal-line looks. Nacua also got a rest DNP Friday (no designation).",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-01 14:31 ET)",
+      "https://www.thefantasyfootballers.com/news/644415/puka-nacua-eight-catches-in-week-7-win/",
+      "https://www.stackedfantasy.com/player/111be44d-7bc2-4cad-934d-c9e946293b2f/opinions",
+      "https://www.si.com/betting/chargers-vs-rams-prediction-odds-spread-injuries-trends-for-nfl-week-8-2026",
+      "https://www.chargers.com/news/chargers-vs-rams-injury-report-mcconkey-full-james-awosika-don-t-practice-wednesday",
+      "https://www.nfl.com/news/nfl-week-8-injury-report-2026-season"
+    ]
   }
 ]
