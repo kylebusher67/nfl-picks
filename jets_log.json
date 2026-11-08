@@ -57,5 +57,34 @@
       "https://www.sharpfootballanalysis.com/stats-nfl/nfl-defensive-stats/"
     ],
     "result": null
+  },
+  {
+    "week": 9,
+    "date": "2026-11-08",
+    "game": "New York Jets @ Kansas City Chiefs (Sun 1:00 PM ET)",
+    "spread": "Jets +9.5",
+    "odds": "-110 (median; -105 best at DraftKings)",
+    "rating": "Why did he pick that?",
+    "why": "Nine and a half points is a lot to ask a Kansas City team that has lost two straight and is 3-5 ATS. The Jets' offense is a respectable 13th in EPA/play, and SI's writer likes the Jets. But Garrett Wilson, the Jets' leading receiver, is Out with a concussion, the Jets' defense is 21st in EPA, and the total has climbed 4.5 points, which hurts a big underdog. More is working against a cover than for it.",
+    "evidence": [
+      "Injuries: WR Garrett Wilson (concussion; team leader with 43-527-3) is Out, along with S VJ Payne, CB Nahshon Wright, DE Joseph Ossai and LB Trevin Wallace (NFL.com; Fox Sports). Breece Hall (quad) practiced fully Thursday and is trending toward returning after missing five games (TSN; Jets.com).",
+      "Usage: Hall's return would be a role-driven boost to the run game after five missed games. Without Wilson, Geno Smith (5th in CPOE, 3 INT, per SI) loses his top target, so it's a role-driven downgrade for the passing game.",
+      "Efficiency: Jets offense 13th in EPA/play and 10th in success rate; Jets defense 21st in EPA/play (SI). KC's run game has stalled: Kenneth Walker averaged 2.6 and 3.3 YPC in the two losses (SI). KC is still without CB Mansoor Delane and DTs Peter Woods and Omarr Norman-Lott (NFL.com).",
+      "Line movement: KC opened -10 and is now -9.5. The total jumped from 43.5 to 48 (SI opening odds; Odds API), so the market expects more scoring, which usually helps the favorite pull away.",
+      "Analysts: SI's writer takes the Jets +9.5. Squawka projects KC 30-13, and Football Nation projects KC 27-20."
+    ],
+    "trend": "KC is 5-3 ATS in the last 8 meetings (8 games, per SI). Small sample, so directional only and not a strong signal. The line likely already reflects it.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-08 10:07 ET)",
+      "https://www.si.com/betting/jets-vs-chiefs-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
+      "https://www.nfl.com/injuries/league/2026/REG9",
+      "https://www.si.com/betting/nfl-week-9-opening-odds-for-every-game-bears-bills-jaguars-favored-in-primetime-patriots-favored-vs-packers",
+      "https://www.foxsports.com/stories/nfl/garrett-wilson-concussion-protocol-jets-chiefs-injury-report",
+      "https://www.tsn.ca/nfl/article/jets-wilson-in-concussion-protocol-hall-trending-toward-return-n1-50380113/",
+      "https://www.newyorkjets.com/news/jets-injury-report-week-9-vs-chiefs-thursday-11-05-2026",
+      "https://www.squawka.com/en/?p=1513676",
+      "https://www.footballnationusa.com/post/jets-at-chiefs-week-9-preview-2026"
+    ],
+    "result": null
   }
 ]

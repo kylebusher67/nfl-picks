@@ -723,5 +723,231 @@
       "https://www.chargers.com/news/chargers-vs-rams-injury-report-mcconkey-full-james-awosika-don-t-practice-wednesday",
       "https://www.nfl.com/news/nfl-week-8-injury-report-2026-season"
     ]
+  },
+  {
+    "week": 9,
+    "date": "2026-11-08",
+    "result": null,
+    "risk_tier": "safe",
+    "rank": 1,
+    "pick": "San Francisco 49ers moneyline vs Las Vegas Raiders",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-465 (median; -425 best at BetUS)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: the matchup case is strong and current, but -465 needs about 82% to break even, and SF is missing three receivers.",
+    "reasoning": "A 6-1 team coming off its bye, with Purdy playing at a high level, hosts a Raiders team whose defense and run game are both bottom-tier.",
+    "why": [
+      "Brock Purdy: 69.2% completions, 1,748 yards, 15 TD, 4 INT. McCaffrey (hamstring) appears ready to play, and Nick Bosa has been removed from the injury report (Field Level Media, Nov 4).",
+      "The Raiders' defense is bottom-five overall and 30th in opponent success rate. Their run game is 30th in rush EPA and rush success rate (SI). SF is coming off its Week 8 bye and added DeForest Buckner at the deadline (Field Level Media).",
+      "Against: WRs Mike Evans (ribs/Achilles), Deebo Samuel (hamstring) and Christian Kirk (knee) are all Out (NFL.com injury report). Kirk Cousins has 19 TD and 5 INT, and the Raiders are 6-2 ATS.",
+      "The line moved from SF -8.5 at open to -9.5 (SI opening odds; Odds API), so the market has moved toward SF despite the WR injuries."
+    ],
+    "breaks": "Without its top three outside receivers, SF's passing game stalls, and Cousins keeps a shootout close enough to steal it late.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-08 10:07 ET)",
+      "https://www.si.com/betting/raiders-vs-49ers-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
+      "https://fieldlevelmedia.com/nfl/niners-stars-trying-to-heal-before-raiders-arrive/",
+      "https://www.nfl.com/injuries/league/2026/REG9",
+      "https://www.si.com/betting/nfl-week-9-opening-odds-for-every-game-bears-bills-jaguars-favored-in-primetime-patriots-favored-vs-packers"
+    ]
+  },
+  {
+    "week": 9,
+    "date": "2026-11-08",
+    "result": null,
+    "risk_tier": "safe",
+    "rank": 2,
+    "pick": "Houston Texans moneyline at Los Angeles Chargers",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-240 (median; -230 best at DraftKings)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: the Chargers' offense has been the worst in the league for seven straight weeks, but Houston is only 2-5 and is missing its RB.",
+    "reasoning": "Houston, coming off a bye, faces the league's worst offense. The Texans only need to win.",
+    "why": [
+      "The Chargers (0-7) rank last in both offensive EPA/play and success rate, and they're 0-6-1 ATS (SI). Their offensive-line injuries continue: G Kayode Awosika is Doubtful (NFL.com).",
+      "The Chargers' secondary is thin: CB Deane Leonard and S Kendall Williamson are Out (NFL.com). That helps Nico Collins (24-329-3 in five games, per SI).",
+      "The line moved from HOU -3.5 at open to -5.5 (SI opening odds; Odds API). The total fell from 42.5 to 40.5, so the market expects a slow game that Houston controls.",
+      "Against: RB David Montgomery (groin) and S Reed Blankenship are Out (NFL.com), and Houston is 2-5 straight up."
+    ],
+    "breaks": "Houston's offense is just as stuck without Montgomery, and a 40.5-total game comes down to one fluky play for the Chargers.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-08 10:07 ET)",
+      "https://www.si.com/betting/texans-vs-chargers-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
+      "https://www.nfl.com/injuries/league/2026/REG9",
+      "https://www.si.com/betting/nfl-week-9-opening-odds-for-every-game-bears-bills-jaguars-favored-in-primetime-patriots-favored-vs-packers"
+    ]
+  },
+  {
+    "week": 9,
+    "date": "2026-11-08",
+    "result": null,
+    "risk_tier": "safe",
+    "rank": 3,
+    "pick": "Detroit Lions moneyline at Miami Dolphins",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-320 (median; -280 best at FanDuel)",
+    "confidence": "Low",
+    "confidence_note": "Low: Detroit is the much better team, but its defense is missing five starters and Amon-Ra St. Brown is Questionable. -320 needs about 76%.",
+    "reasoning": "A 5-2 Lions team on a three-game win streak faces a 1-6 Dolphins team that is 0-3 at home. Detroit's defensive injuries are the reason this is the weakest Safe pick.",
+    "why": [
+      "Detroit has won three straight. Jahmyr Gibbs has 773 rushing yards and 8 TDs and ran for 153 last week (SI). Miami is 1-6 and 0-3 at home, with De'Von Achane on IR (SI).",
+      "Against: Lions LB Jack Campbell, S Kerby Joseph, CB D.J. Reed, DE DJ Wonnum and C Cade Mays are all Out, and St. Brown (rib) is Questionable (NFL.com).",
+      "The line slipped from DET -7 at open to -6.5 (SI opening odds; Odds API). That's a small move given how many defensive starters Detroit lost, so the market still has them as clear favorites.",
+      "SI's Ryan Gilbert takes Detroit -7 but says he's 'not comfortable laying much more.' This is a moneyline for that reason: the Lions only need to win."
+    ],
+    "breaks": "Miami's offense attacks a Detroit secondary missing Joseph and Reed, and the Dolphins win a shootout at home.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-08 10:07 ET)",
+      "https://www.si.com/betting/lions-vs-dolphins-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
+      "https://www.nfl.com/injuries/league/2026/REG9",
+      "https://www.si.com/betting/nfl-week-9-opening-odds-for-every-game-bears-bills-jaguars-favored-in-primetime-patriots-favored-vs-packers"
+    ]
+  },
+  {
+    "week": 9,
+    "date": "2026-11-08",
+    "result": null,
+    "risk_tier": "balanced",
+    "rank": 1,
+    "pick": "Denver Broncos moneyline at Carolina Panthers",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-150 (median; -142 best at DraftKings)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: there's a clear defensive and injury edge, but a 2.5-point road favorite still loses often. -150 needs 60%.",
+    "reasoning": "Denver's top-12 defense and run game face a Carolina defense missing four starters and ranked 28th in yards per carry allowed.",
+    "why": [
+      "Broncos defense: 11th in EPA/play, 10th in success rate. Panthers defense: 20th in EPA/play, 28th in yards per carry allowed and 26th in EPA/rush (SI).",
+      "Carolina's LBs Bobby Okereke and Jaelan Phillips, CB Will Lee III and G Damien Lewis are all Out (NFL.com). Jaycee Horn and Taylor Moton are on IR (SI).",
+      "Denver is 6-2 and 6-2 ATS, including 4-0 ATS as a favorite (8 games, per SI; small sample, directional only), and it beat KC last week. SI's Peter Dewey takes the Denver moneyline.",
+      "Against: Denver's own secondary is depleted (S Brandon Jones and CB Kris Abrams-Draine are Out), and Carolina's offense is top-15 in EPA/play (SI). The line hasn't moved from -2.5 (SI opening odds; Odds API)."
+    ],
+    "breaks": "Bryce Young and a top-15 offense pick apart Denver's thinned secondary, and the Broncos' 23rd-ranked offense can't keep up on the road.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-08 10:07 ET)",
+      "https://www.si.com/betting/broncos-vs-panthers-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
+      "https://www.nfl.com/injuries/league/2026/REG9",
+      "https://www.si.com/betting/nfl-week-9-opening-odds-for-every-game-bears-bills-jaguars-favored-in-primetime-patriots-favored-vs-packers"
+    ]
+  },
+  {
+    "week": 9,
+    "date": "2026-11-08",
+    "result": null,
+    "risk_tier": "balanced",
+    "rank": 2,
+    "pick": "Buffalo Bills -3 at Minnesota Vikings (MNF)",
+    "bet_type": "spread",
+    "line": "-3",
+    "odds": "-114 (median; -109 best at LowVig.ag)",
+    "confidence": "Low",
+    "confidence_note": "Low: the QB downgrade is real, but Minnesota's defense has allowed the fewest TDs in the league, and -3 lands exactly on the most common margin.",
+    "reasoning": "Minnesota is down to Carson Wentz against the league's highest-scoring offense in touchdowns.",
+    "why": [
+      "Kyler Murray (hamstring) is Out and week-to-week. Carson Wentz makes his second start of the season, with Max Brosmer as backup (Fox 9; Field Level Media). Vikings WR Jauan Jennings and RB Demond Claiborne are also Out (NFL.com).",
+      "Buffalo has scored 27 touchdowns, the most in the NFL (Squawka preview). Models lean Buffalo: Stats Insider projects 25-22 and Kalshi implies about 25-21 (Stats Insider; OddsShopper).",
+      "Against: Minnesota has allowed only 9 touchdowns, the fewest in the NFL (Squawka). numberFire gives Buffalo only 53.3% to win (FanDuel Research).",
+      "The spread held at -3 from open to now while the total fell from 46.5 to 44 (SI opening odds; Odds API). The market treats this as a lower-scoring game, which makes covering 3 points harder."
+    ],
+    "breaks": "Minnesota's defense keeps it a one-possession game, and Buffalo wins by exactly 3 (a push) or less.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-08 10:07 ET)",
+      "https://www.fox9.com/sports/kyler-murray-week-to-week-carson-wentz-set-2nd-start-vikings-host-bills",
+      "https://fieldlevelmedia.com/news/vikings-kyler-murray-hamstring-out-carson-wentz-to-start-vs-bills/",
+      "https://www.squawka.com/en/?p=1513694",
+      "https://www.statsinsider.com.au/news/vikings-vs-bills-prediction-and-preview-nfl-week-9-2026",
+      "https://fanduel.com/research/bills-vs-vikings-predictions-odds-picks-best-bets-for-nfl-week-9-monday-night-football-2026",
+      "https://www.nfl.com/injuries/league/2026/REG9",
+      "https://www.si.com/betting/nfl-week-9-opening-odds-for-every-game-bears-bills-jaguars-favored-in-primetime-patriots-favored-vs-packers"
+    ]
+  },
+  {
+    "week": 9,
+    "date": "2026-11-08",
+    "result": null,
+    "risk_tier": "balanced",
+    "rank": 3,
+    "pick": "Los Angeles Rams -4.5 at Washington Commanders",
+    "bet_type": "spread",
+    "line": "-4.5",
+    "odds": "-107 (median; +100 best at LowVig.ag)",
+    "confidence": "Low",
+    "confidence_note": "Low: there's a clear run-game mismatch, but the line has moved a full point toward Washington, so sharper money disagrees.",
+    "reasoning": "A top-10 Rams team that wins by running the ball faces the league's 31st-ranked run defense, and Washington is out of healthy receivers.",
+    "why": [
+      "Washington ranks 31st in opponent rush success rate. SI's Iain MacMillan takes the Rams -5.5, calling them top-10 in almost every area (SI).",
+      "Washington's receiving corps is depleted: Terry McLaurin is on IR, and Dyami Brown and Treylon Burks are Out (SI; NFL.com).",
+      "Against: the line dropped from LAR -5.5 at open to -4.5, and RotoWire reports continued movement toward Daniels and Washington (SI opening odds; RotoWire). The Rams are without CB Jaylen Watson and TE Terrance Ferguson, and McDuffie is Questionable (NFL.com).",
+      "The Rams' defense is still missing Myles Garrett, Kobie Turner and Poona Ford (all IR, per SI), which helps Washington if Daniels extends plays."
+    ],
+    "breaks": "Daniels creates enough with his legs against a Rams pass rush missing three front-seven starters, and Washington keeps it within 4.",
+    "trend": "The Rams are 7-3 ATS in the last 10 meetings (10 games, per SI). Small sample, so directional only and not a strong signal. It's public and covers different rosters, so the line likely already reflects it.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-08 10:07 ET)",
+      "https://www.si.com/betting/rams-vs-commanders-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
+      "https://www.nfl.com/injuries/league/2026/REG9",
+      "https://www.si.com/betting/nfl-week-9-opening-odds-for-every-game-bears-bills-jaguars-favored-in-primetime-patriots-favored-vs-packers",
+      "https://apps.rotowire.com/football/article/nfl-week-9-line-moves-and-odds-changes-86575"
+    ]
+  },
+  {
+    "week": 9,
+    "date": "2026-11-08",
+    "result": null,
+    "risk_tier": "aggressive",
+    "rank": 1,
+    "pick": "Tampa Bay Buccaneers moneyline at Chicago Bears (SNF)",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "+220 (median; +220 best at DraftKings)",
+    "confidence": "Low",
+    "confidence_note": "Low: there's a real defensive and situational case, but a 6-point road underdog wins roughly a third of the time at best. +220 needs about 31%.",
+    "reasoning": "An elite Tampa Bay defense and top-seven run game catch the Bears on a short week after an emotional MNF win. This trades win probability for payout.",
+    "why": [
+      "Tampa Bay ranks 2nd in opponent EPA/play and 3rd in opponent success rate, and it's top-seven in every rushing metric (SI).",
+      "Bucky Irving: 728 rushing yards at 5.0 YPC and 5 TDs, including 170 yards last week vs Atlanta (SI). That's his role as the lead back, not a single fluke game, though 170 is an outlier.",
+      "Chicago is on a short week after beating Seattle on Monday night. RB Kyle Monangai is Questionable again (NFL.com). SI's Iain MacMillan and BetMGM's writer both take the Bucs moneyline.",
+      "Against: the Bears are 6-2 and 6-2 ATS (SI), the spread hasn't moved from -6 (SI opening odds; Odds API), and Mayfield's form is uncertain per SI."
+    ],
+    "breaks": "Caleb Williams' offense gets ahead early, and Tampa Bay's run-first plan stops working once it has to throw.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-08 10:07 ET)",
+      "https://www.si.com/betting/buccaneers-vs-bears-prediction-odds-spread-injuries-trends-for-nfl-week-9-01m6hsqswvbd",
+      "https://sports.betmgm.com/en/blog/nfl/bears-vs-buccaneers-prediction-odds-picks-week-9-snf-2026-bm16/",
+      "https://www.nfl.com/injuries/league/2026/REG9",
+      "https://www.si.com/betting/nfl-week-9-opening-odds-for-every-game-bears-bills-jaguars-favored-in-primetime-patriots-favored-vs-packers"
+    ]
+  },
+  {
+    "week": 9,
+    "date": "2026-11-08",
+    "result": null,
+    "risk_tier": "aggressive",
+    "rank": 2,
+    "pick": "Arizona Cardinals moneyline at Seattle Seahawks",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "+325 (median; +340 best at DraftKings)",
+    "confidence": "Low",
+    "confidence_note": "Low: Seattle's injury list is long, but this is still a road underdog against a top defense. +325 needs about 24%.",
+    "reasoning": "Seattle is without its starting QB, LT, a Pro Bowl guard and three front-seven defenders. A long-shot upset is more plausible here than usual.",
+    "why": [
+      "Sam Darnold (quad/ribs) is Out. Drew Lock starts and is himself Questionable (right elbow) on the final report (SI, Nov 4; NFL.com).",
+      "Seattle is also without T Charles Cross, G Quenton Nelson, WR Rashid Shaheed, DT Leonard Williams, DT Brandon Pili and LB Uchenna Nwosu (all Out, per NFL.com).",
+      "Gardner Minshew starts after going 17-of-23 for 188 yards and 3 TD in relief in an overtime win over Dallas (SI). The line moved from SEA -11.5 to -8.5 and the total from 44.5 to 39.5 (SI; Odds API), so most of this is already priced in.",
+      "Against: Seattle's defense is top-two by EPA, and Lock threw 3 TDs against this same Arizona team in Week 2 (SI)."
+    ],
+    "breaks": "Lock plays fine again against Arizona's bottom-10 defense, and Seattle's defense smothers Minshew in a low-scoring game.",
+    "trend": "Seattle is 9-1 ATS in the last 10 meetings (10 games, per SI). Small sample, so directional only and not a strong signal. It covers different rosters and coaches and runs against this pick, so treat it as a caution.",
+    "sources": [
+      "the-odds-api.com (fetched 2026-11-08 10:07 ET)",
+      "https://www.si.com/betting/cardinals-vs-seahawks-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
+      "https://www.si.com/betting/shocking-sam-darnold-injury-update-causes-massive-shift-in-cardinals-vs-seahawks-odds-for-nfl-week-9",
+      "https://www.nfl.com/injuries/league/2026/REG9",
+      "https://www.si.com/betting/nfl-week-9-opening-odds-for-every-game-bears-bills-jaguars-favored-in-primetime-patriots-favored-vs-packers"
+    ]
   }
 ]
