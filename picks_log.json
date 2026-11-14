@@ -949,5 +949,238 @@
       "https://www.nfl.com/injuries/league/2026/REG9",
       "https://www.si.com/betting/nfl-week-9-opening-odds-for-every-game-bears-bills-jaguars-favored-in-primetime-patriots-favored-vs-packers"
     ]
+  },
+  {
+    "week": 10,
+    "date": "2026-11-14",
+    "result": null,
+    "risk_tier": "safe",
+    "rank": 1,
+    "pick": "Seattle Seahawks moneyline at Las Vegas Raiders",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-295 (median; -285 best at Bovada)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: a sharp, liquid market with strong efficiency support. -295 needs about 75% to break even.",
+    "reasoning": "Seattle's elite defense faces rookie Fernando Mendoza's first NFL start behind the league's worst defense by EPA and success rate.",
+    "why": [
+      "Raiders QB Fernando Mendoza (2026 No. 1 pick) makes his first NFL start after Las Vegas traded Kirk Cousins to Minnesota at the deadline (SI, Nov 10).",
+      "Seattle's defense allows a league-low 4.1 yards per play, 0.6 better than the next team. The Raiders' defense ranks last in both EPA per play and success rate (SI, Nov 10).",
+      "The line moved from SEA -3.5 (SI/BetMGM, Nov 10) to -6.5 (Covers, Nov 13; Odds API), and books agree on -6.5.",
+      "Drew Lock has no injury designation and will start for the injured Sam Darnold (NFL.com Week 10 report)."
+    ],
+    "breaks": "Seattle's offense (26th in EPA, 28th in success rate) stalls without Darnold, LT Charles Cross and G Quenton Nelson (all Out), and a low-scoring game turns on one turnover.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-14 08:33 ET)",
+      "https://www.si.com/betting/seahawks-vs-raiders-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
+      "https://www.nfl.com/injuries/league/2026/reg10",
+      "https://www.nfl.com/news/nfl-week-10-injury-report-2026-season",
+      "https://www.covers.com/nfl/week-10-odds-opening-lines-2026"
+    ]
+  },
+  {
+    "week": 10,
+    "date": "2026-11-14",
+    "result": null,
+    "risk_tier": "safe",
+    "rank": 2,
+    "pick": "Los Angeles Rams moneyline at Arizona Cardinals",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-475 (median; -450 best at BetUS)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: the evidence is strong, but at -475 a single loss wipes out several wins. It needs about 83% to break even.",
+    "reasoning": "Arizona starts rookie Carson Beck in his first career game, and its offense is already bottom-five. The Rams' defense is top-eight.",
+    "why": [
+      "Gardner Minshew is out for the season (elbow) and Jacoby Brissett was traded, so rookie Carson Beck makes his first career start (Sharp Football Analysis, Nov 11; TheRams.com, Nov 10).",
+      "Arizona is 26th in points per game (19.8), 28th in yards per play (4.7) and 31st in points allowed (28.3). Its 1.33 points per drive at home is the league low (Sharp).",
+      "The Rams are 8th in points allowed (20.1) and 7th in defensive yards per play (5.0). Myles Garrett returned last week, and McVay expects him to play (Sharp; TheRams.com injury report).",
+      "Stafford practiced fully all week (NFL.com). The line moved from Rams -8.5 (BetMGM preview) to -9.5 (Odds API), and implied totals are Rams 25.0, Cardinals 15.5 (Sharp)."
+    ],
+    "breaks": "The Rams' receiving corps is gutted (Puka Nacua and Davante Adams out, TE Terrance Ferguson out), and a run-heavy, low-scoring game lets Arizona hang around.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-14 08:33 ET)",
+      "https://www.sharpfootballanalysis.com/fantasy/rams-cardinals-week-10-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/amp/",
+      "https://www.therams.com/news/first-look-rams-take-on-cardinals-in-arizona-in-week-10-riding-three-game-win-streak",
+      "https://www.therams.com/news/rams-injury-report-week-10-2026-at-cardinals-trent-mcduffie-steve-avila",
+      "https://sports.betmgm.com/en/blog/nfl/cardinals-vs-rams-prediction-odds-picks-week-10-2026-bm16/",
+      "https://www.nfl.com/injuries/league/2026/reg10"
+    ]
+  },
+  {
+    "week": 10,
+    "date": "2026-11-14",
+    "result": null,
+    "risk_tier": "safe",
+    "rank": 3,
+    "pick": "Buffalo Bills moneyline at New York Jets",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-440 (median; -425 best at DraftKings)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: the matchup gap is large, but at -440 the pick needs about 81.5% to break even, and division road games carry upset risk.",
+    "reasoning": "The league's top scoring offense faces a Jets defense that has collapsed over the last month.",
+    "why": [
+      "Buffalo (7-1) leads the NFL at 32.0 points per game and scores on 53.9% of possessions, the league high (Sharp Football Analysis, Nov 11).",
+      "The Jets' defense is 31st in success rate (55.1%) and has allowed 2.86 points per drive over its last four games (31st), up from 1.85 (7th) before that (Sharp).",
+      "The Jets lost 35-12 at home to Kansas City in Week 9 (Jets.com). Buffalo beat Minnesota 23-6 on MNF with James Cook carrying 31 times for 107 yards (Bills.com).",
+      "The line moved from Bills -7.5 (SI, Nov 10) to -8 (Odds API)."
+    ],
+    "breaks": "Geno Smith (7th in passer rating) and a returning Garrett Wilson (full practice Friday) exploit Buffalo's leaky second-half pass defense, which leads the league with 143.3 passing yards allowed per game after halftime (Sharp).",
+    "trend": "Buffalo is 5-0 ATS in the last five meetings (5 games, per SI). Small sample, so directional only and not a strong signal. The line is likely already priced for Buffalo's dominance in this series.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-14 08:33 ET)",
+      "https://www.sharpfootballanalysis.com/fantasy/bills-jets-week-10-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/amp/",
+      "https://www.si.com/betting/bills-vs-jets-prediction-odds-spread-injuries-trends-for-nfl-week-10-01m71kvg2c1j",
+      "https://www.newyorkjets.com/news/jets-host-bills-in-week-10-afc-east-clash-11-11-2026",
+      "https://buffalobills.com/news/bills-23-vikings-6-final-score-recap-highlights",
+      "https://www.newyorkjets.com/news/jets-injury-report-week-10-vs-bills-friday-11-13-2026"
+    ]
+  },
+  {
+    "week": 10,
+    "date": "2026-11-14",
+    "result": null,
+    "risk_tier": "balanced",
+    "rank": 1,
+    "pick": "San Francisco 49ers -4 at Dallas Cowboys",
+    "bet_type": "spread",
+    "line": "-4",
+    "odds": "-110 (median; -105 best at LowVig.ag)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: the efficiency gap is wide, but spreads are efficient markets, and Dallas's offense can keep pace.",
+    "reasoning": "SF is first in offensive yards per play and EPA. Dallas's defense is 31st in EPA and 29th in yards per play allowed.",
+    "why": [
+      "San Francisco is 1st in offensive yards per play (6.3) and total offensive EPA, and 3rd in defensive yards per play allowed (4.8) (Sharp Football Analysis, Nov 11).",
+      "Dallas's defense is 31st in total defensive EPA, 29th in yards per play allowed (5.8) and 25th in points allowed (26.2). It also allows the most yards per possession (Sharp).",
+      "SF is 7-1, and Purdy has 17 TD and 5 INT with 20+ rushing yards in six of eight games (SI; Sharp). Deebo Samuel is expected back, and Keenan Allen was added at the deadline (Sharp).",
+      "The line moved from SF -3.5 (Covers, Nov 13) to -4 (Odds API)."
+    ],
+    "breaks": "Dak Prescott (three straight top-10 weeks, 335 yards last game) attacks a 49ers secondary missing CB Deommodore Lenoir and S Renardo Green, and Dallas wins a shootout. SI's writer takes Dallas +4.",
+    "trend": "SF is 4-0 ATS in the last four meetings (4 games, per SI). Small sample, so directional only and not a strong signal. Public series results like this are already reflected in the line.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-14 08:33 ET)",
+      "https://www.sharpfootballanalysis.com/fantasy/49ers-cowboys-week-10-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/amp/",
+      "https://www.si.com/betting/49ers-vs-cowboys-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
+      "https://www.covers.com/nfl/week-10-odds-opening-lines-2026",
+      "https://www.nfl.com/news/nfl-week-10-injury-report-2026-season"
+    ]
+  },
+  {
+    "week": 10,
+    "date": "2026-11-14",
+    "result": null,
+    "risk_tier": "balanced",
+    "rank": 2,
+    "pick": "Cincinnati Bengals -3.5 vs Pittsburgh Steelers (SNF)",
+    "bet_type": "spread",
+    "line": "-3.5",
+    "odds": "-110 (median; -102 best at LowVig.ag)",
+    "confidence": "Low",
+    "confidence_note": "Low: there's a real efficiency edge on offense, but the hook at 3.5 matters, Pittsburgh's defense is top-five, and analysts split.",
+    "reasoning": "Cincinnati's offense has been the league's best since Week 4, and Pittsburgh's offense is poor on the road.",
+    "why": [
+      "Since Week 4, Cincinnati's offense ranks 1st in both EPA per play and success rate (SI, Nov 11). It leads the NFL at 3.08 points per drive over its last six games (Sharp, Nov 11).",
+      "Burrow leads all QBs in yards per game (298.3), TDs (23) and completion rate (74%). Chase's target shares the last two games were 34% and 42.9%, his season highs (SI; Sharp).",
+      "Pittsburgh averages 1.50 points per drive on the road (28th) and is in the bottom half in EPA and success rate. It has also had the 4th-easiest schedule (Sharp; SI).",
+      "The spread opened Bengals -3.5 and hasn't moved, while the total rose from 47.5 to 49.5 (Covers; Odds API)."
+    ],
+    "breaks": "Pittsburgh's defense (4th in points allowed, 6th in yards per play) slows Burrow, and Cincinnati's 27th-ranked defense lets Rodgers keep it within a field goal.",
+    "trend": "Pittsburgh is 7-3 ATS in the last 10 meetings (10 games, per SI). Small sample, so directional only and not a strong signal. It runs against this pick, and the market already knows it.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-14 08:33 ET)",
+      "https://www.si.com/betting/steelers-vs-bengals-prediction-odds-spread-injuries-trends-for-nfl-week-10-01m7414skcz7",
+      "https://www.sharpfootballanalysis.com/fantasy/steelers-bengals-week-10-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/amp/",
+      "https://www.covers.com/nfl/week-10-odds-opening-lines-2026",
+      "https://sports.betmgm.com/en/blog/nfl/bengals-vs-steelers-prediction-odds-picks-week-10-snf-2026-bm16/",
+      "https://www.nfl.com/injuries/league/2026/reg10"
+    ]
+  },
+  {
+    "week": 10,
+    "date": "2026-11-14",
+    "result": null,
+    "risk_tier": "balanced",
+    "rank": 3,
+    "pick": "Vikings @ Packers Under 42",
+    "bet_type": "total",
+    "line": "Under 42",
+    "odds": "-110 (median; -107 best at LowVig.ag)",
+    "confidence": "Low",
+    "confidence_note": "Low: the market already sits at a low number, and a QB change (Cousins) adds real uncertainty to Minnesota's offense.",
+    "reasoning": "Minnesota has the league's lowest-scoring games and best scoring defense, and both teams are bottom-three running the ball while Green Bay is without Josh Jacobs.",
+    "why": [
+      "Minnesota allows a league-low 14.5 points per game and opponents score on just 27.6% of its drives. Its games average 32.8 combined points, the fewest in the NFL (Sharp, Nov 11).",
+      "Minnesota's offense is 30th in yards per play (4.6) and scores TDs on only 12.5% of possessions, 2nd-lowest. Kyler Murray, Jauan Jennings and T.J. Hockenson are all Out (Sharp; NFL.com).",
+      "Green Bay is without RB Josh Jacobs (finger surgery) and TE Josh Whyle. Both teams are bottom-two in rushing success rate (GB 30th, MIN 31st) (NFL.com; Sharp).",
+      "The total has dipped from 42.5 (Covers, Nov 13) to 42 (Odds API)."
+    ],
+    "breaks": "Jordan Love (19 TD, 387 yards against Minnesota in Week 1) has another big passing day, and with Micah Parsons Out, Cousins finds more room than Minnesota's offense has had all year.",
+    "trend": "Minnesota games are 7-1 to the under this season (8 games, per SI and Sharp). Small sample, so directional only and not a strong signal. The 42 total is the market already adjusting for it.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-14 08:33 ET)",
+      "https://www.sharpfootballanalysis.com/fantasy/vikings-packers-week-10-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/amp/",
+      "https://www.si.com/betting/vikings-vs-packers-prediction-odds-spread-injuries-trends-for-nfl-week-10-01m71j8tb8kc",
+      "https://www.nfl.com/injuries/league/2026/reg10",
+      "https://www.nfl.com/news/vikings-wont-commit-to-kirk-cousins-starting-packers",
+      "https://www.covers.com/nfl/week-10-odds-opening-lines-2026"
+    ]
+  },
+  {
+    "week": 10,
+    "date": "2026-11-14",
+    "result": null,
+    "risk_tier": "aggressive",
+    "rank": 1,
+    "pick": "New England Patriots moneyline vs Detroit Lions (Munich)",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "+130 (median; +134 best at BetUS)",
+    "confidence": "Low",
+    "confidence_note": "Low: it's a coin-flip-range underdog with injury questions on both sides. +130 needs about 43.5% to break even.",
+    "reasoning": "Detroit's defense ranks among the league's worst and is missing three starters, and Drake Maye has the efficiency to exploit it.",
+    "why": [
+      "Detroit's defense is 30th in opponent EPA per play and 21st in yards per play allowed (5.4) (SI, Nov 9). It allows a league-high 261 passing yards per game (Covers).",
+      "S Kerby Joseph, CB D.J. Reed and C Cade Mays are Out, and WR Amon-Ra St. Brown is Questionable (rib) (NFL.com).",
+      "Drake Maye ranks 5th in adjusted EPA per play and 2nd in completion percentage over expected (SI).",
+      "SI's MacMillan takes NE +125 and BetMGM's writer takes NE +3 (both context, not evidence)."
+    ],
+    "breaks": "New England's injuries pile up: RB TreVeyon Henderson and OL Ben Brown are Out, and A.J. Brown, Rhamondre Stevenson and several linemen are Questionable (NFL.com). Detroit (four straight wins) outscores them.",
+    "trend": "New England is 0-4 ATS in its last four games (4 games, per SI). Small sample, so directional only and not a strong signal. It's a caution, and the line likely already reflects it.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-14 08:33 ET)",
+      "https://www.si.com/betting/patriots-vs-lions-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
+      "https://www.covers.com/nfl/patriots-vs-lions-prediction-picks-odds-early-leans-week-10-2026",
+      "https://sports.betmgm.com/en/blog/nfl/lions-vs-patriots-prediction-odds-picks-week-10-2026-bm16/",
+      "https://www.nfl.com/news/nfl-week-10-injury-report-2026-season"
+    ]
+  },
+  {
+    "week": 10,
+    "date": "2026-11-14",
+    "result": null,
+    "risk_tier": "aggressive",
+    "rank": 2,
+    "pick": "Cleveland Browns moneyline vs Houston Texans",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "+192 (median; +195 best at DraftKings)",
+    "confidence": "Low",
+    "confidence_note": "Low: Cleveland's starting QB is unresolved and its offense is bottom-five. +192 needs about 34% to break even.",
+    "reasoning": "Houston's defense is missing several starters, and Cleveland is 3-0 at home in a game the market has moved toward it.",
+    "why": [
+      "Houston has ruled out DE Danielle Hunter, LB Azeez Al-Shaair and WR Marvin Harrison Jr. DE Will Anderson Jr., RB David Montgomery and two starting linemen are Questionable (NFL.com).",
+      "Cleveland is 3-0 at home, with upsets of Carolina, Pittsburgh and Baltimore as a slight underdog, and is 6-3 ATS. Houston is 0-4 at home and 3-5 ATS (SI, Nov 10).",
+      "The spread moved from Texans -5.5 (Covers, Nov 13) to -4.5 (Odds API). Cleveland's defense is 13th in points allowed and 12th in yards per play (Sharp, Nov 11).",
+      "SI's writer takes Browns +4.5, expecting a low-scoring game. The total is 40.5, and Browns games average 39.7 combined points, 31st (SI; Sharp)."
+    ],
+    "breaks": "Cleveland's QBs are sacked on a league-worst 13.4% of dropbacks, Houston's pass rush ranks 2nd (10.5%), and the Browns' QB situation (Watson or Shedeur Sanders) is still unresolved (Sharp).",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-14 08:33 ET)",
+      "https://www.si.com/betting/texans-vs-browns-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
+      "https://www.sharpfootballanalysis.com/fantasy/texans-browns-week-10-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/amp/",
+      "https://www.nfl.com/news/nfl-week-10-injury-report-2026-season",
+      "https://www.covers.com/nfl/week-10-odds-opening-lines-2026"
+    ]
   }
 ]

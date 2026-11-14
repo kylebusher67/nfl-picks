@@ -86,5 +86,30 @@
       "https://www.footballnationusa.com/post/jets-at-chiefs-week-9-preview-2026"
     ],
     "result": null
+  },
+  {
+    "week": 10,
+    "date": "2026-11-14",
+    "game": "Buffalo Bills @ New York Jets (Sun 1:00 PM ET)",
+    "spread": "Jets +8",
+    "odds": "-111 (median; -108 best at BetRivers)",
+    "rating": "Yup, Chris is next week's bozo.",
+    "why": "The Jets' defense has fallen apart over the last month (31st in success rate, 31st in points per drive over its last four), and it now faces the league's highest-scoring offense. The Jets lost by 23 as 9.5-point underdogs last week, and the line has moved toward Buffalo. Garrett Wilson's likely return and Geno Smith's efficiency are real, but not enough to cover 8.",
+    "evidence": [
+      "Buffalo (7-1) leads the league at 32.0 points per game and in scoring rate (53.9% of drives). The Jets' defense allows 2.86 points per drive over its last four games (31st) and is 31st in success rate (Sharp, Nov 11).",
+      "The Jets lost 35-12 at home to Kansas City in Week 9 (Jets.com) and are 0-3 ATS in their last three games (SI).",
+      "Garrett Wilson (concussion) practiced fully Friday and is Questionable. Breece Hall returned in Week 9 with a team-high 61 rushing yards. LB Trevin Wallace is Out (Jets.com).",
+      "For the Jets: Geno Smith is 7th in passer rating (100.5) and 5th in TD/INT ratio among qualifiers (Jets.com). Buffalo has allowed 10 of its 15 passing TDs in the second half, which leaves backdoor-cover potential (Sharp).",
+      "The line moved from Bills -7.5 (SI, Nov 10) to -8 (Odds API). SI's MacMillan takes Jets +7.5 (context only)."
+    ],
+    "trend": "Buffalo is 5-0 ATS in the last five meetings (5 games, per SI). Small sample, so directional only and not a strong signal. It's well known and likely already priced into the line.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-14 08:33 ET)",
+      "https://www.sharpfootballanalysis.com/fantasy/bills-jets-week-10-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/amp/",
+      "https://www.si.com/betting/bills-vs-jets-prediction-odds-spread-injuries-trends-for-nfl-week-10-01m71kvg2c1j",
+      "https://www.newyorkjets.com/news/jets-host-bills-in-week-10-afc-east-clash-11-11-2026",
+      "https://www.newyorkjets.com/news/jets-injury-report-week-10-vs-bills-friday-11-13-2026"
+    ],
+    "result": null
   }
 ]
