@@ -1182,5 +1182,233 @@
       "https://www.nfl.com/news/nfl-week-10-injury-report-2026-season",
       "https://www.covers.com/nfl/week-10-odds-opening-lines-2026"
     ]
+  },
+  {
+    "week": 11,
+    "risk_tier": "safe",
+    "rank": 1,
+    "date": "2026-11-18",
+    "pick": "Jacksonville Jaguars moneyline at New York Giants",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-270 (median; -245 best at FanDuel)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: liquid moneyline market with strong injury and form evidence, but -270 needs about 73% to break even and the line has already moved a lot.",
+    "reasoning": "The Giants lost QB Jaxson Dart for the season and two defensive starters, while Jacksonville's offense is on a three-game scoring run.",
+    "why": [
+      "Giants QB Jaxson Dart (knee: MCL, meniscus) is on IR and out for the regular season; J.J. McCarthy starts. LBs Brian Burns (ACL) and Tremaine Edmunds (chest) are also out for the season (DK Network injury report, Nov 17).",
+      "Jacksonville averages 38.3 points per game during its three-game win streak, with 6.0 yards per play (tied 5th) and a 46.8% third-down rate (3rd) (CBS Sports, Tyler Sullivan, Nov 18).",
+      "The line moved from Jaguars -1 to -6 (RotoWire, Nov 17), with 79% of tickets and 98% of money on Jacksonville. The market agrees, which also means most of this is already priced in.",
+      "RB Bhayshul Tuten played 71% of snaps and 76% of RB attempts in Week 10, up from a season-low 36% in Week 9 while limited by an ankle/foot injury (role-driven: health, per FantasyLife and FantasyData)."
+    ],
+    "breaks": "McCarthy is a competent starter (23 of 36 for 293 yards vs Washington), and Jacksonville is on the road with C Robert Hainsey (knee) uncertain.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-18 10:06 local)",
+      "https://dknetwork.draftkings.com/2026/11/17/nfl-injury-report-week-11/",
+      "https://www.cbssports.com/nfl/news/week-11-picks-best-bets-ats-odds-chargers-jets-titans-cowboys/",
+      "https://www.rotowire.com/football/article/nfl-week-11-odds-biggest-line-moves-betting-splits-and-key-injuries-146888",
+      "https://fantasylife.com/articles/fantasy/week-11-fantasy-football-utilization-report-key-takeaways"
+    ],
+    "result": null
+  },
+  {
+    "week": 11,
+    "risk_tier": "safe",
+    "rank": 2,
+    "date": "2026-11-18",
+    "pick": "Pittsburgh Steelers moneyline at Philadelphia Eagles",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-220 (median; -215 best at BetUS)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: liquid market and a clear QB gap, but the line already moved about 11 points; -220 needs about 69% to break even.",
+    "reasoning": "Philadelphia is down to practice-squad QB Joe Milton with Jalen Hurts out for the season, and its offense was already the league's least efficient.",
+    "why": [
+      "Jalen Hurts (blood clots in calf and lungs) is on IR and expected to miss the rest of the season; Joe Milton is expected to start (DK Network, Nov 17; PhillyVoice, Nov 16).",
+      "Philadelphia is 2-7, has lost 7 straight, and is 1-10 ATS over its last 11 games. It scores 16.4 points per game, versus Pittsburgh's 22.0 (Fox Sports matchup page).",
+      "The Eagles' 4.29 yards per play is the lowest in the NFL this season (Fox Sports). Pittsburgh allows only 83.2 rushing yards per game (Fox Sports).",
+      "The line swung from Eagles -6.5 to Steelers -4.5 (RotoWire, Nov 17), so the market has fully reacted to the QB news. This isn't a hidden edge."
+    ],
+    "breaks": "Pittsburgh just lost 38-18 at Cincinnati and G Mason McCormick has a significant ankle injury. With a 38.5 total, one turnover or a special-teams score can decide it.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-18 10:06 local)",
+      "https://dknetwork.draftkings.com/2026/11/17/nfl-injury-report-week-11/",
+      "https://www.rotowire.com/football/article/nfl-week-11-odds-biggest-line-moves-betting-splits-and-key-injuries-146888",
+      "https://www.foxsports.com/nfl/week-11-pittsburgh-steelers-vs-philadelphia-eagles-nov-22-2026-game-boxscore-11282",
+      "https://www.phillyvoice.com/eagles-steelers-week-11-odds-preview-spread-money-lines-aaron-rodgers-moro-ojomo-jordan-davis-trade/"
+    ],
+    "result": null
+  },
+  {
+    "week": 11,
+    "risk_tier": "safe",
+    "rank": 3,
+    "date": "2026-11-18",
+    "pick": "Cincinnati Bengals moneyline at Washington Commanders",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "-285 (median; -272 best at MyBookie.ag)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: liquid market and a big injury gap, but this is a heavily public side, and -285 needs about 74% to break even.",
+    "reasoning": "Cincinnati has won five straight with a healthy Joe Burrow, while Washington is missing several starters on both sides of the ball.",
+    "why": [
+      "Washington has lost WR Terry McLaurin, DTs Daron Payne and Javon Kinlaw, and LB Leo Chenal for the season, and OT Laremy Tunsil is on IR until about December (DK Network, Nov 17).",
+      "Joe Burrow has no injury designation (Yahoo/BVM Sports previews, Nov 16), and Cincinnati is on a five-game win streak that includes a 38-18 win over Pittsburgh on Sunday night (Covers; Fox Sports).",
+      "The line moved from Bengals -1.5 to -6.5 (RotoWire, Nov 17). Bets are 87% of tickets and 93% of money on Cincinnati, so the price reflects that.",
+      "One model gives Cincinnati a 73% win chance (OG.com). That's roughly the breakeven at -285, which is a reminder that the price already reflects the gap (context only)."
+    ],
+    "breaks": "Cincinnati is on the road in prime time after a Sunday-night game, G Dalton Risner (knee) is uncertain, and Washington is coming off a win over the Giants.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-18 10:06 local)",
+      "https://dknetwork.draftkings.com/2026/11/17/nfl-injury-report-week-11/",
+      "https://www.rotowire.com/football/article/nfl-week-11-odds-biggest-line-moves-betting-splits-and-key-injuries-146888",
+      "https://bvmsports.com/2026/11/16/bengals-vs-commanders-burrow-allen-and-blitz-storylines/",
+      "https://og.com/learn/bengals-vs-commanders-11-23-26-prediction",
+      "https://www.covers.com/nfl/week-11-odds-opening-lines-2026"
+    ],
+    "result": null
+  },
+  {
+    "week": 11,
+    "risk_tier": "balanced",
+    "rank": 1,
+    "date": "2026-11-18",
+    "pick": "Tennessee Titans +8 at Dallas Cowboys",
+    "bet_type": "spread",
+    "line": "+8",
+    "odds": "-109 (median; -103 best at LowVig.ag)",
+    "confidence": "Medium",
+    "confidence_note": "Medium: efficient spread market. The evidence is mostly about Dallas's defense, and Tennessee is a 1-8 team.",
+    "reasoning": "Dallas has one of the league's worst defenses, and a 55-point total leaves a lot of room for the Titans to stay inside 8.",
+    "why": [
+      "Dallas ranks 30th in points allowed (28.2 per game) and last in total defense (393.8 yards per game) (Yahoo Sports, '5 things to know about the Titans'). It allows 6.1 yards per play, 6th-highest (CBS Sports, Nov 18).",
+      "Cam Ward has 535 yards and 4 TDs over his last two games, and Tennessee averages 5.8 yards per play and 5.4 yards per carry over its last three (CBS Sports; Yahoo). That's role-driven: he's the full-time starter, and the team's efficiency rose with it.",
+      "Dallas CB DaRon Bland and G Tyler Booker have high ankle sprains, and TE Jake Ferguson is out 'multiple weeks' (DK Network, Nov 17).",
+      "Tennessee is 3-1 ATS on the road and Dallas is 1-3 ATS at home (CBS Sports). Small samples, so treat these as context, not signal."
+    ],
+    "breaks": "Tennessee is 1-8 and short on receivers (Wan'Dale Robinson on IR, Carnell Tate's shoulder). If Dallas's offense runs up a big early lead, a backdoor cover won't come.",
+    "trend": "Titans 3-1 ATS on the road and Cowboys 1-3 ATS at home this season (4 games each, per CBS Sports). Small sample, so directional only and not a strong signal. These records are public and likely already priced into the 8-point line.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-18 10:06 local)",
+      "https://www.cbssports.com/nfl/news/week-11-picks-best-bets-ats-odds-chargers-jets-titans-cowboys/",
+      "https://dknetwork.draftkings.com/2026/11/17/nfl-injury-report-week-11/",
+      "https://www.rotowire.com/football/article/nfl-week-11-odds-biggest-line-moves-betting-splits-and-key-injuries-146888",
+      "https://sports.yahoo.com/articles/5-things-know-tennessee-titans-031452529.html",
+      "https://www.sharpfootballanalysis.com/fantasy/titans-cowboys-week-11-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/"
+    ],
+    "result": null
+  },
+  {
+    "week": 11,
+    "risk_tier": "balanced",
+    "rank": 2,
+    "date": "2026-11-18",
+    "pick": "Carolina Panthers -2.5 vs Baltimore Ravens",
+    "bet_type": "spread",
+    "line": "-2.5",
+    "odds": "-114 (median; -110 best at FanDuel)",
+    "confidence": "Low",
+    "confidence_note": "Low: sources conflict. Spread money and one model lean Baltimore, so this is a close call in an efficient market.",
+    "reasoning": "Baltimore's offense has collapsed without Lamar Jackson, and the Ravens are on a short week after Monday night.",
+    "why": [
+      "Lamar Jackson (thumb surgery, 6-10 weeks) is on IR and Jacoby Brissett starts (DK Network, Nov 17). Baltimore has lost five straight without him and is 4-6 (CBS Sports, Nov 17).",
+      "Derrick Henry averaged 4.2 yards per carry over the first five games and 3.1 over the last five. The Ravens ran for 16 yards in Monday's 23-20 loss to the 1-8 Chargers (CBS Sports, Nov 17). That's role-driven: the defense no longer has to respect a QB run threat.",
+      "DT Nnamdi Madubuike (hamstring) left Monday's game, and Baltimore is 2-8 ATS this season (DK Network; SI Betting).",
+      "The line moved from Ravens -4 to Panthers -2.5 (RotoWire, Nov 17), so the market has already adjusted for the QB news."
+    ],
+    "breaks": "RotoWire reports 59% of spread money on Baltimore, and numberFire gives the Ravens a 56.4% win probability. Carolina (4-5) is also missing OTs Taylor Moton and Ikem Ekwonu.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-18 10:06 local)",
+      "https://dknetwork.draftkings.com/2026/11/17/nfl-injury-report-week-11/",
+      "https://www.rotowire.com/football/article/nfl-week-11-odds-biggest-line-moves-betting-splits-and-key-injuries-146888",
+      "https://www.cbssports.com/nfl/news/derrick-henry-ravens-rushing-stats-lamar-jackson-injury/",
+      "https://www.si.com/betting/ravens-vs-panthers-prediction-odds-spread-injuries-trends-for-nfl-week-11-2026"
+    ],
+    "result": null
+  },
+  {
+    "week": 11,
+    "risk_tier": "balanced",
+    "rank": 3,
+    "date": "2026-11-18",
+    "pick": "Steelers @ Eagles Under 38.5",
+    "bet_type": "total",
+    "line": "Under 38.5",
+    "odds": "-110 (median; -107 best at LowVig.ag)",
+    "confidence": "Low",
+    "confidence_note": "Low: totals are efficient, the number has already dropped 3 points, and a practice-squad QB can create short fields both ways.",
+    "reasoning": "Neither offense creates much: Philadelphia has the league's worst yards per play and a backup QB, and Pittsburgh is mid-pack and struggles near the goal line.",
+    "why": [
+      "The Eagles' 4.29 yards per play is the NFL's lowest, they score 16.4 points per game, and Joe Milton has 169 passing yards this season (Fox Sports).",
+      "Pittsburgh scores 22.0 points per game and has gained 7 yards in goal-to-go situations all season, the fewest in the NFL (Fox Sports).",
+      "Pittsburgh allows just 83.2 rushing yards per game (Fox Sports). PhillyVoice (Nov 16) says the Eagles 'can't run... and certainly can't pass.'",
+      "The total fell from 41.5 to 38.5 (RotoWire, Nov 17), so most of this is already priced in."
+    ],
+    "breaks": "Milton turnovers can give Pittsburgh short fields or a defensive TD. Philadelphia allows 24.6 points per game, so Pittsburgh could score 28 by itself.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-18 10:06 local)",
+      "https://www.rotowire.com/football/article/nfl-week-11-odds-biggest-line-moves-betting-splits-and-key-injuries-146888",
+      "https://www.foxsports.com/nfl/week-11-pittsburgh-steelers-vs-philadelphia-eagles-nov-22-2026-game-boxscore-11282",
+      "https://www.phillyvoice.com/eagles-steelers-week-11-odds-preview-spread-money-lines-aaron-rodgers-moro-ojomo-jordan-davis-trade/"
+    ],
+    "result": null
+  },
+  {
+    "week": 11,
+    "risk_tier": "aggressive",
+    "rank": 1,
+    "date": "2026-11-18",
+    "pick": "Minnesota Vikings moneyline vs San Francisco 49ers (Mexico City)",
+    "bet_type": "moneyline",
+    "line": "ML",
+    "odds": "+140 (median; +144 best at LowVig.ag)",
+    "confidence": "Low",
+    "confidence_note": "Low: this is a real underdog in a near coin-flip game. +140 needs about 42% to win to break even, and it trades win probability for payout.",
+    "reasoning": "A 7-2 team with an elite scoring defense is getting +140 against a 49ers team missing most of its receivers, at a neutral site.",
+    "why": [
+      "Minnesota is 7-2 and allows 14.0 points per game, and Kirk Cousins has steadied the offense since the trade (Star Tribune / Yahoo previews).",
+      "San Francisco is thin at WR: Mike Evans (Achilles tendinitis) has missed three games, Brandon Aiyuk is on a roster exemption, and Christian Kirk and Ricky Pearsall are on IR (DK Network, Nov 17).",
+      "The line moved from 49ers -4 to -3 (RotoWire). Covers cites 'early interest in Minnesota', and CBS's Tyler Sullivan picks Vikings +3 (projected 23-21) (context only).",
+      "The game is in Mexico City, so San Francisco gets less of a home-field edge than a usual -3 home favorite."
+    ],
+    "breaks": "San Francisco (8-1) scores 31.2 points per game and allows only 4.9 yards per play (3rd). Minnesota is without WRs Jordan Addison and Jauan Jennings, with LBs Cashman and Van Ginkel uncertain.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-18 10:06 local)",
+      "https://dknetwork.draftkings.com/2026/11/17/nfl-injury-report-week-11/",
+      "https://www.rotowire.com/football/article/nfl-week-11-odds-biggest-line-moves-betting-splits-and-key-injuries-146888",
+      "https://www.cbssports.com/nfl/news/week-11-picks-best-bets-ats-odds-chargers-jets-titans-cowboys/",
+      "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-prediction-odds-picks-kirk-cousins-nfl-week-11-mexico-city/601920082",
+      "https://www.covers.com/nfl/week-11-odds-opening-lines-2026"
+    ],
+    "result": null
+  },
+  {
+    "week": 11,
+    "risk_tier": "aggressive",
+    "rank": 2,
+    "date": "2026-11-18",
+    "pick": "Jordyn Tyson Over 5.5 receptions (Saints @ Bears)",
+    "bet_type": "player prop",
+    "line": "Over 5.5",
+    "odds": "-105 (median; -102 best at FanDuel)",
+    "confidence": "Low",
+    "confidence_note": "Low: a thin, volatile prop market built on a two-game career sample. One game script or target shift swings it.",
+    "reasoning": "Tyson took over as the Saints' WR1 in his second game, and a pass-heavy team that's a big underdog should keep throwing.",
+    "why": [
+      "Tyson drew 13 targets (11 catches, 80 yards) in Week 10 while Chris Olave saw 4-5. He played 91% of 3-WR snaps in his second career game off IR (CBS; NBC; Blitz Sports). That's role-driven: he's a new full-time starter. But it's a one-game sample.",
+      "New Orleans throws 38.1 passes per game (tied 2nd) and a league-high 39.5 on the road (CBS Sports, Nov 18). As 11.5-point underdogs, the Saints should be in a passing script.",
+      "Chicago's CB room is banged up: Kyler Gordon (shoulder), Malik Muhammad II (toe) and Tyrique Stevenson (hand) are all on the injury list (DK Network, Nov 17).",
+      "The current line of 5.5 is half of last week's 11 catches. No earlier line was found, so the market has likely priced in some, but not all, of his new role."
+    ],
+    "breaks": "Olave's target share bounces back. Or, with C Erik McCoy and OT Taliese Fuaga hurt, drives stall before Tyson gets six catches.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py --event 3ea90704fb576633bd1e2fa5aafd9ea3 --markets player_receptions (2026-11-18)",
+      "https://www.cbssports.com/nfl/news/week-11-picks-best-bets-ats-odds-chargers-jets-titans-cowboys/",
+      "https://dknetwork.draftkings.com/2026/11/17/nfl-injury-report-week-11/",
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-11-15/tyson-leads-saints-with-13-targets-80-yards",
+      "https://www.cbssports.com/fantasy/football/news/saints-jordyn-tyson-breakout-performance-in-week-10-loss/",
+      "https://blitzsportsmedia.com/fantasy-football-takeaways-wk10-26/"
+    ],
+    "result": null
   }
 ]

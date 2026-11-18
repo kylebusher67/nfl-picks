@@ -111,5 +111,32 @@
       "https://www.newyorkjets.com/news/jets-injury-report-week-10-vs-bills-friday-11-13-2026"
     ],
     "result": null
+  },
+  {
+    "week": 11,
+    "date": "2026-11-18",
+    "game": "New York Jets @ Los Angeles Chargers (Sun Nov 22, 4:05 PM ET)",
+    "spread": "Jets +3.5",
+    "odds": "-117 (median; -110 best at MyBookie.ag)",
+    "rating": "Why did he pick that?",
+    "why": "The Chargers are genuinely bad (1-8, the league's worst point differential before Week 10, 0-4 ATS at home) and are on a short week after Monday night, which is the real case for the Jets. But the Jets haven't scored a touchdown in nine quarters, Geno Smith's ankle is unresolved, and 82% of the money is on the Chargers. It's live, but more is working against Chris than for him.",
+    "evidence": [
+      "Geno Smith (left ankle) had tests show nothing major and will start if healthy; otherwise rookie Cade Klubnik starts. WR Omar Cooper Jr. (ankle) and G Dylan Parham (knee) had imaging (DK Network, Nov 17; Jets On SI).",
+      "The Jets (2-8) have kicked nine field goals and scored no touchdowns over their last nine quarters, and they lost 31-12 to Buffalo. Aaron Glenn has given up play-calling (Bergen Record via Yahoo, Nov 18).",
+      "The Chargers (1-8) were outscored by 98 points through eight games, the league's worst differential (ESPN, Nov 16). They're without WR Ladd McConkey (back) and OT Rashawn Slater (IR), and they played Monday night (DK Network).",
+      "RotoWire shows 48% of tickets but 82% of money on the Chargers (Nov 17). Reported opening lines conflict (RotoWire LAC -10.5, 4for4 LAC -1.5), so there's no reliable line-move signal.",
+      "Analysts are split: CBS's Tyler Sullivan takes Jets +3.5 (24-20), and four of six Bergen Record writers pick the Chargers (context only)."
+    ],
+    "trend": "The Chargers are 0-4 ATS at home this season (4 games, per CBS Sports). Small sample, so directional only and not a strong signal. It's widely cited and likely already in the 3.5.",
+    "sources": [
+      "the-odds-api.com via fetch_odds.py (2026-11-18 10:06 local)",
+      "https://dknetwork.draftkings.com/2026/11/17/nfl-injury-report-week-11/",
+      "https://www.rotowire.com/football/article/nfl-week-11-odds-biggest-line-moves-betting-splits-and-key-injuries-146888",
+      "https://www.cbssports.com/nfl/news/week-11-picks-best-bets-ats-odds-chargers-jets-titans-cowboys/",
+      "https://sports.yahoo.com/articles/ny-jets-vs-chargers-predictions-110543999.html",
+      "https://www.si.com/nfl/jets/onsi/breaking-down-jets-injury-outlook-begin-week-11-who-s-hurt-who-could-return-chargers-01m7knyn4he8",
+      "https://www.espn.com/espn/betting/story/_/id/50464190/nfl-odds-betting-chargers-first-win-week-10"
+    ],
+    "result": null
   }
 ]
